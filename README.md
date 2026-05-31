@@ -10,6 +10,7 @@ Currently pursuing a Master of Science in Information Systems Technologies at Wi
 
 ## About Me
 
+* Bachelor's student at Vignana Bharathi institution of Technology
 * Master's Student at Wilmington University
 * Backend Engineering & Full-Stack Development
 * Interested in Software Engineer, Backend Engineer, and AI Engineer roles
@@ -104,6 +105,40 @@ Backend service designed using Spring Boot with RESTful APIs and database integr
 * Spring Boot
 * SQL
 * REST APIs
+
+---
+
+### 🌱 Smart Irrigation System using LoRaWAN and IoT
+
+Associated with Vignana Bharathi Institute of Technology
+
+Built an IoT-based smart irrigation system using LoRaWAN and Raspberry Pi to monitor soil moisture and automate irrigation in agricultural fields. Integrated cloud monitoring and RTL-SDR-based LoRa signal analysis to improve water management and wireless communication performance.
+
+**Tech Stack**
+
+* IoT
+* LoRaWAN
+* Raspberry Pi
+* Embedded Systems
+* Cloud Monitoring
+* RTL-SDR
+
+---
+
+### ☀️ Solar Light Design for Night Time
+
+Associated with Vignana Bharathi Institute of Technology
+
+Developed a solar-powered smart lighting system with PIR motion sensing to automatically adjust LED brightness and improve energy efficiency. Designed an automated dusk-to-dawn solution using renewable energy for street lighting, parking areas, and remote locations.
+
+
+**Tech Stack** 
+
+* Embedded Systems
+* Solar Energy Systems
+* PIR Sensors
+* LED Automation
+* Renewable Energy
 
 ---
 
