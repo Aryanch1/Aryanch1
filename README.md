@@ -4,7 +4,7 @@
 
 I am a Software Engineer focused on building scalable backend systems, full-stack web applications, and AI-powered solutions.
 
-Currently pursuing a Master of Science in Information Systems Technologies at Wilmington University while developing production-oriented software projects using Java, Spring Boot, React, PostgreSQL, Docker, and cloud technologies.
+Graduated in Master of Science in Information Systems Technologies at Wilmington University while developing production-oriented software projects using Java, Spring Boot, React, PostgreSQL, Docker, and cloud technologies.
 
 ---
 
