@@ -1,5 +1,8 @@
-<h1 align="center">Hi 👋, I'm Aryanmouli Cherupalli</h1>
-<h3 align="center">FullStack Developer</h3>
+<div align="center">
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Software+Developer;Cybersecurity+Analyst;Full-Stack+Developer;800%2B+DSA+Problems+Solved!)
+
+</div>
 
 - 🌱 I’m currently learning **AI by Anthropic**
 
