@@ -1,174 +1,157 @@
-# Hi, I'm Aryanmouli Cherupalli 👋
+<div align="center">
 
-### Software Engineer | Java • Spring Boot • React • AWS • AI Applications
+# 👋 Hi, I'm Aryanmouli Cherupalli
 
-I am a Software Engineer focused on building scalable backend systems, full-stack web applications, and AI-powered solutions.
+### 💻 Software Developer | 🛡️ Cybersecurity Enthusiast | 🎓 MS Information Systems Technologies
 
-Graduated in Master of Science in Information Systems Technologies at Wilmington University while developing production-oriented software projects using Java, Spring Boot, React, PostgreSQL, Docker, and cloud technologies.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://geeksforgeeks.org)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryanmouli.ch@gmail.com)
 
----
-
-## About Me
-
-* Bachelor's student at Vignana Bharathi institution of Technology
-* Master's Student at Wilmington University
-* Backend Engineering & Full-Stack Development
-* Interested in Software Engineer, Backend Engineer, and AI Engineer roles
-* Strong foundation in Data Structures, Algorithms, System Design, Operating Systems, and Networking
-* Solved 800+ coding problems across LeetCode and GeeksforGeeks
+</div>
 
 ---
 
-## Technical Skills
+## 🚀 About Me
 
-### Backend Development
+> Information Systems Technologies graduate passionate about building secure, scalable systems and delivering reliable technical solutions.
 
-* Java
-* Spring Boot
-* REST APIs
-* Microservices
-* JWT Authentication
-* RBAC
-* Node.js
-
-### Frontend Development
-
-* React
-* JavaScript
-* TypeScript
-* HTML5
-* CSS3
-
-### Databases
-
-* PostgreSQL
-* Firebase Firestore
-* Redis
-* SQL
-
-### Cloud & DevOps
-
-* AWS (EC2, S3, IAM)
-* Docker
-* CI/CD
-* Linux
-* Google Cloud Run
-
-### AI & Machine Learning
-
-* LLM Applications
-* Prompt Engineering
-* Retrieval-Augmented Generation (RAG)
-* Vector Databases
-* NLP Fundamentals
+- 🔭 Currently working as a **Software Developer Intern** at Databrx Technologies LLC
+- 🛡️ Former **Cybersecurity Analyst Intern** at Palo Alto Networks
+- 💡 Solved **800+ DSA problems** across LeetCode & GeeksforGeeks
+- 🌐 Full-Stack Developer with hands-on experience in modern web technologies
+- 📍 Based in Glassboro, NJ, USA
 
 ---
 
-## Featured Projects
+## 🛠️ Tech Stack & Skills
 
-### EduFriend – Learning Management Platform
-
-A cloud-hosted learning platform that enables students to access study materials, take quizzes, and track academic progress.
-
-**Tech Stack**
-
-* React
-* Flask
-* Firebase Authentication
-* Firestore
-* Docker
-* Google Cloud Run
+### 🖥️ Operating Systems
+![Windows](https://img.shields.io/badge/Windows_10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
-### Smart Hotel Reservation Agent
-
-An AI-powered hotel booking assistant capable of conversational hotel search, recommendations, and booking workflows using LLMs.
-
-**Tech Stack**
-
-* Python
-* Streamlit
-* Google ADK
-* Gemini LLM
-* AI Workflow Automation
+### 👨‍💻 Programming Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ---
 
-### PGMitra Backend
-
-Backend service designed using Spring Boot with RESTful APIs and database integration.
-
-**Tech Stack**
-
-* Java
-* Spring Boot
-* SQL
-* REST APIs
+### 🌐 Web & Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ---
 
-### 🌱 Smart Irrigation System using LoRaWAN and IoT
-
-Associated with Vignana Bharathi Institute of Technology
-
-Built an IoT-based smart irrigation system using LoRaWAN and Raspberry Pi to monitor soil moisture and automate irrigation in agricultural fields. Integrated cloud monitoring and RTL-SDR-based LoRa signal analysis to improve water management and wireless communication performance.
-
-**Tech Stack**
-
-* IoT
-* LoRaWAN
-* Raspberry Pi
-* Embedded Systems
-* Cloud Monitoring
-* RTL-SDR
+### 🗄️ Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ---
 
-### ☀️ Solar Light Design for Night Time
-
-Associated with Vignana Bharathi Institute of Technology
-
-Developed a solar-powered smart lighting system with PIR motion sensing to automatically adjust LED brightness and improve energy efficiency. Designed an automated dusk-to-dawn solution using renewable energy for street lighting, parking areas, and remote locations.
-
-
-**Tech Stack** 
-
-* Embedded Systems
-* Solar Energy Systems
-* PIR Sensors
-* LED Automation
-* Renewable Energy
+### ☁️ Microsoft Technologies
+![Windows Admin](https://img.shields.io/badge/Windows_Admin-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Office 365](https://img.shields.io/badge/Office_365-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-0078D6?style=for-the-badge&logo=microsoft&logoColor=white)
 
 ---
 
-## Current Focus
-
-* Advanced Spring Boot Development
-* Distributed Systems Fundamentals
-* System Design
-* AI-Powered Applications
-* Cloud-Native Architecture
-* Backend Performance Optimization
+### 🔐 Cybersecurity
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=portswigger&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
 
 ---
 
-## Coding Profiles
-
-LeetCode: 800+ Problems Solved
-
-GeeksforGeeks: Active Problem Solver
-
----
-
-## Let's Connect
-
-LinkedIn: [https://www.linkedin.com/in/aryanmouli-cherupalli/]
-
-Email: aryanmouli.ch@gmail.com
+### 🌐 Networking
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-005C84?style=for-the-badge&logo=cisco&logoColor=white)
+![DNS](https://img.shields.io/badge/DNS-0052CC?style=for-the-badge&logo=cloudflare&logoColor=white)
+![DHCP](https://img.shields.io/badge/DHCP-00897B?style=for-the-badge&logo=cisco&logoColor=white)
+![VPN](https://img.shields.io/badge/VPN-4A90D9?style=for-the-badge&logo=openvpn&logoColor=white)
 
 ---
 
-### Motto
+### 🔧 Tools & DevOps
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-Building reliable software. Learning continuously. Improving every day.
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aryanmouli-ch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aryanmouli-ch&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=aryanmouli-ch&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+🧩 **800+ DSA Problems Solved** across LeetCode & GeeksforGeeks
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/aryanmouli-ch?theme=dark&font=Roboto&ext=contest)
+
+</div>
+
+---
+
+## 💼 Professional Experience
+
+```
+🏢 Databrx Technologies LLC          Oct 2025 – Jun 2026
+   Software Developer Intern | Glassboro, NJ (Remote)
+
+🛡️ Palo Alto Networks                 Oct 2021 – Dec 2021
+   Cybersecurity Analyst Intern | Santa Clara, CA
+
+🌐 Self-Employed                      Feb 2021 – Oct 2022
+   Freelance Full-Stack Developer | Remote
+```
+
+---
+
+## 🎓 Education
+
+```
+🎓 Master of Science — Information Systems Technologies
+   Wilmington University, USA | 2023 – 2025
+```
+
+---
+
+## 📬 Let's Connect!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Send_an_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aryanmouli.ch@gmail.com)
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+
+</div>
+
+---
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=aryanmouli-ch&color=blueviolet&style=for-the-badge)
+
+⭐ **From [Aryanmouli Cherupalli](https://github.com/aryanmouli-ch) — Thanks for visiting!** ⭐
+
+</div>
