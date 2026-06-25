@@ -1,5 +1,9 @@
 <div align="center">
 
+# 👋 Hi, I'm Aryanmouli Cherupalli
+
+### 💻 Software Developer | 🛡️ Cybersecurity Enthusiast | 🎓 MS Information Systems Technologies
+
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Software+Developer;Cybersecurity+Analyst;Full-Stack+Developer;800%2B+DSA+Problems+Solved!)
 
 </div>
