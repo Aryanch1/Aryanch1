@@ -4,7 +4,7 @@
   Hi, I'm Aryanmouli Cherupalli
 </h1>
 
-### 💻 Software Developer | 🛡️ Cybersecurity Enthusiast | 🎓 MS Information Systems Technologies
+### Software Engineer | Full-Stack Developer | AI/ML Enthusiast
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Software+Developer;Cybersecurity+Analyst;Full-Stack+Developer;800%2B+DSA+Problems+Solved!)
 
