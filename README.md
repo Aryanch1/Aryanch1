@@ -11,7 +11,15 @@
 
 </div>
 
-- 🌱 I’m currently learning **AI by Anthropic**
+- 🔭 I'm currently working on **Scalable Web & Mobile applications and backend services**
+
+- 🌱 I'm currently learning **Agentic AI, LangGraph, Kubernetes, and AWS cloud services**
+
+- 👯 I'm looking to collaborate on **Full-stack projects, AI-powered applications, and open source tools**
+
+- 🤝 I'm looking for help with **Advanced cloud architecture and distributed systems**
+
+- 💬 Ask me about **Java, Spring Boot, React, REST APIs, RAG, AI/ML, and Cybersecurity**
 
 - 📫 How to reach me **aryanmouli.ch@gmail.com**
 
