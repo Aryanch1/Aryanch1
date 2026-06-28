@@ -5,6 +5,7 @@
 </h1>
 
 ### Software Engineer | Full-Stack Developer | AI/ML Enthusiast
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Aryanch1&label=Profile views&color=0e75b6&style=flat" alt="Aryanch1" /> </p>
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Software+Developer;Cybersecurity+Analyst;Full-Stack+Developer;800%2B+DSA+Problems+Solved!)
 
