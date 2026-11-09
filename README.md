@@ -77,17 +77,15 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ![Backend and APIs](https://skillicons.dev/icons?i=spring,nodejs,express,flask,graphql)
 
-<img src="assets/badge-apis.svg" alt="APIs" height="40" />
+<img src="assets/badge-apis.svg" alt="APIs" width="294" />
 
 **AI & GenAI**
 
-<img src="assets/badge-genai.svg" alt="GenAI: RAG, LangChain, LangGraph, Pinecone, Gemini API" height="40" />
+<img src="assets/badge-genai.svg" alt="GenAI: RAG, LangChain, LangGraph, Pinecone, Gemini API" width="414" />
 
 **Databases & Data**
 
 ![Databases](https://skillicons.dev/icons?i=postgres,mongodb,dynamodb,redis,firebase)
-
-<img src="assets/badge-databases.svg" alt="Databases" height="40" />
 
 **Cloud & DevOps**
 
