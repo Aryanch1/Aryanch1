@@ -132,6 +132,10 @@ def main():
         changed |= by_id("assets/hl-dsa.svg", "dsaTotal", format(combined, ","))
         changed |= by_id("assets/hl-dsa.svg", "dsaSplit", "LeetCode %d &#183; GFG %d" % (lc_total, gfg_total))
         changed |= by_id("assets/hl-rank.svg", "gfgScore", "Coding Score %d" % gfg_score)
+        changed |= sub("assets/badge-leetcode.svg", r'(<tspan id="lcBadgeCount">)[^<]*(</tspan>)',
+                       lambda m: m.group(1) + str(lc_total) + m.group(2))
+        changed |= sub("assets/badge-gfg.svg", r'(<tspan id="gfgBadgeCount">)[^<]*(</tspan>)',
+                       lambda m: m.group(1) + str(gfg_total) + m.group(2))
         changed |= by_id("assets/leetcode-card.svg", "lcTotal", str(lc_total))
         changed |= by_id("assets/leetcode-card.svg", "lcEasy", str(lc_e))
         changed |= by_id("assets/leetcode-card.svg", "lcMed", str(lc_m))
