@@ -39,15 +39,15 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ---
 
-## 🚀 Selected work
+## 🚀 Projects I Have Worked On
 
 <p align="center">
   <a href="https://mindmate-si.vercel.app"><img src="assets/card-mindmate.svg" width="49%" alt="MindMate AI — AI assistant app, live on web and mobile" /></a>
-  <a href="https://edu-friened-12.web.app/login"><img src="assets/card-bridgeai.svg" width="49%" alt="BridgeAI — AI learning platform with LangGraph and RAG" /></a>
+  <a href="https://aryanmoulich.vercel.app"><img src="assets/card-portfolio.svg" width="49%" alt="Portfolio — my developer portfolio site" /></a>
 </p>
 <p align="center">
+  <a href="https://edu-friened-12.web.app/login"><img src="assets/card-bridgeai.svg" width="49%" alt="BridgeAI — AI learning platform with LangGraph and RAG" /></a>
   <a href="https://github.com/Aryanch1/Proton"><img src="assets/card-proton.svg" width="49%" alt="Proton — Flutter and Firebase authentication app" /></a>
-  <a href="https://github.com/Aryanch1/smart_hotel_agent"><img src="assets/card-hotel.svg" width="49%" alt="Smart Hotel Agent — Python AI booking agent" /></a>
 </p>
 
 **Project links**
@@ -130,6 +130,10 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 <p align="center">
   <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://leetcard.jacoblin.cool/Aryanmouli?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode live stats card" width="500" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="assets/gfg-card.svg" alt="GeeksforGeeks stats card — updated daily" width="500" /></a>
 </p>
 
 - **LeetCode:** 546 solved (151 Easy · 277 Medium · 118 Hard) · 365-day badge
