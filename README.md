@@ -51,7 +51,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
   <a href="https://github.com/Aryanch1/Proton"><img src="assets/card-proton.svg" width="49%" alt="Proton — Flutter and Firebase authentication app" /></a>
 </p>
 
-**Project links**
+<img src="assets/head-links.svg" alt="Project Links" width="880" />
 
 | Project | What it is | Links |
 | --- | --- | --- |
