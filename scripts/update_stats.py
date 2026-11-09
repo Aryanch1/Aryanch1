@@ -132,19 +132,14 @@ def main():
         changed |= by_id("assets/hl-dsa.svg", "dsaTotal", format(combined, ","))
         changed |= by_id("assets/hl-dsa.svg", "dsaSplit", "LeetCode %d &#183; GFG %d" % (lc_total, gfg_total))
         changed |= by_id("assets/hl-rank.svg", "gfgScore", "Coding Score %d" % gfg_score)
+        changed |= by_id("assets/leetcode-card.svg", "lcTotal", str(lc_total))
+        changed |= by_id("assets/leetcode-card.svg", "lcEasy", str(lc_e))
+        changed |= by_id("assets/leetcode-card.svg", "lcMed", str(lc_m))
+        changed |= by_id("assets/leetcode-card.svg", "lcHard", str(lc_h))
         changed |= by_id("assets/gfg-card.svg", "gfgTotal", str(gfg_total))
         changed |= by_id("assets/gfg-card.svg", "gfgScore", str(gfg_score))
         changed |= by_id("assets/gfg-card.svg", "gfgRank", "#" + str(gfg_rank))
         print("LC %d, GFG %d, combined %d" % (lc_total, gfg_total, combined))
-    try:
-        ksvg = fetch("https://komarev.com/ghpvc/?username=" + GH_USER + "&color=0e75b6&style=flat&label=Profile+views")
-        knums = re.findall(r">(\d[\d,]*)</text>", ksvg)
-        if knums:
-            changed |= sub("assets/badge-views.svg", r'(<tspan id="viewsCount">)[^<]*(</tspan>)',
-                           lambda m: m.group(1) + knums[-1] + m.group(2))
-            print("views:", knums[-1])
-    except Exception as e:
-        print("views fetch failed:", e)
     try:
         repos_n, stars, followers, top = github()
         changed |= by_id("assets/gh-stats.svg", "ghRepos", str(repos_n))
