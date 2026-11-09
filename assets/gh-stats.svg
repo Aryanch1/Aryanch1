@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 190" width="500" height="190">
+  <defs>
+    <linearGradient id="sbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#131a2e"/><stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="sgloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="sclip"><rect width="500" height="190" rx="14"/></clipPath>
+  </defs>
+  <rect width="500" height="190" rx="14" fill="url(#sbg)"/>
+  <g clip-path="url(#sclip)"><rect width="500" height="86" fill="url(#sgloss)"/></g>
+  <rect x="1" y="1" width="498" height="188" rx="13" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.4"/>
+  <text x="28" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#ffffff">GitHub Stats</text>
+  <text x="28" y="70" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#8fb0ff">@Aryanch1</text>
+  <text id="ghRepos" x="28" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">14</text>
+  <text x="28" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">PUBLIC REPOS</text>
+  <text id="ghStars" x="196" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">1</text>
+  <text x="196" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">TOTAL STARS</text>
+  <text id="ghFollowers" x="364" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">3</text>
+  <text x="364" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">FOLLOWERS</text>
+</svg>
