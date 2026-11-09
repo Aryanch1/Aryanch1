@@ -14,7 +14,7 @@
 
 ---
 
-## 👨‍💻 About me
+<img src="assets/head-about.svg" alt="About Me" width="880" />
 
 <img align="right" src="assets/robot.webp" width="250" alt="Aryanmouli Cherupalli — AI" />
 
@@ -29,7 +29,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ---
 
-## ✦ Highlights
+<img src="assets/head-highlights.svg" alt="Highlights" width="880" />
 
 <p align="center">
   <img src="assets/hl-dsa.svg" width="24.5%" alt="DSA problems solved" />
@@ -40,7 +40,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ---
 
-## 🚀 Projects I Have Worked On
+<img src="assets/head-projects.svg" alt="Projects I Have Worked On" width="880" />
 
 <p align="center">
   <a href="https://mindmate-si.vercel.app"><img src="assets/card-mindmate.svg" width="49%" alt="MindMate AI — AI assistant app, live on web and mobile" /></a>
@@ -63,7 +63,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ---
 
-## 🛠️ Tech stack
+<img src="assets/head-tech.svg" alt="Tech Stack" width="880" />
 
 **Languages**
 
@@ -97,7 +97,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ---
 
-## 📊 GitHub stats
+<img src="assets/head-stats.svg" alt="GitHub Statistics" width="880" />
 
 <p align="center">
   <img src="assets/gh-stats.svg" width="49%" alt="GitHub stats — updated daily" />
@@ -118,19 +118,22 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ---
 
-## 🏅 Coding profiles
+<img src="assets/head-coding.svg" alt="Coding Profiles" width="880" />
 
-<p>
+<p align="center">
   <a href="https://leetcode.com/u/Aryanmouli/"><img src="assets/badge-leetcode.svg" alt="LeetCode" height="40" /></a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="assets/lc-wide.svg" alt="LeetCode stats card — updated daily" width="660" /></a>
+</p>
+
+<p align="center">
   <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="assets/badge-gfg.svg" alt="GeeksforGeeks" height="40" /></a>
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/u/Aryanmouli/"><img src="assets/leetcode-live.svg" alt="LeetCode live stats card" width="500" /></a>
-</p>
-
-<p align="center">
-  <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="assets/gfg-card.svg" alt="GeeksforGeeks stats card — updated daily" width="500" /></a>
+  <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="assets/gfg-card.svg" alt="GeeksforGeeks stats card — updated daily" width="660" /></a>
 </p>
 
 - **LeetCode:** 546 solved (151 Easy · 277 Medium · 118 Hard) · 365-day badge
