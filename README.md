@@ -10,14 +10,13 @@
   <a href="https://www.linkedin.com/in/aryanmouli-cherupalli/"><img src="assets/badge-linkedin.svg" alt="LinkedIn" height="40" /></a>
   <a href="https://aryanmoulich.vercel.app/"><img src="assets/badge-portfolio.svg" alt="Portfolio" height="40" /></a>
   <a href="mailto:aryanmouli.ch@gmail.com"><img src="assets/badge-email.svg" alt="Email" height="40" /></a>
-  <img src="assets/badge-views.svg" alt="Profile views" height="40" />
 </p>
 
 ---
 
 ## 👨‍💻 About me
 
-<img align="right" src="assets/portrait.svg" width="250" alt="Aryanmouli Cherupalli — Full-Stack Developer and AI Engineer" />
+<img align="right" src="assets/portrait.webp" width="250" alt="Aryanmouli Cherupalli" />
 
 I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience building production web, mobile, and AI applications — currently at **CitraTek Inc.**, where I own backend microservices, GraphQL APIs, and an AI-powered semantic search feature built with RAG.
 
@@ -129,7 +128,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://leetcard.jacoblin.cool/Aryanmouli?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode live stats card" width="500" /></a>
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="assets/leetcode-card.svg" alt="LeetCode stats card" width="500" /></a>
 </p>
 
 <p align="center">
