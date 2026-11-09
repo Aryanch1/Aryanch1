@@ -10,12 +10,14 @@
   <a href="https://www.linkedin.com/in/aryanmouli-cherupalli/"><img src="assets/badge-linkedin.svg" alt="LinkedIn" height="40" /></a>
   <a href="https://aryanmoulich.vercel.app/"><img src="assets/badge-portfolio.svg" alt="Portfolio" height="40" /></a>
   <a href="mailto:aryanmouli.ch@gmail.com"><img src="assets/badge-email.svg" alt="Email" height="40" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Aryanch1&color=0e75b6&style=flat&label=Profile+views" alt="Profile views" />
+  <img src="assets/badge-views.svg" alt="Profile views" height="40" />
 </p>
 
 ---
 
 ## 👨‍💻 About me
+
+<img align="right" src="assets/portrait.svg" width="250" alt="Aryanmouli Cherupalli — Full-Stack Developer and AI Engineer" />
 
 I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience building production web, mobile, and AI applications — currently at **CitraTek Inc.**, where I own backend microservices, GraphQL APIs, and an AI-powered semantic search feature built with RAG.
 
@@ -76,9 +78,17 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ![Backend and APIs](https://skillicons.dev/icons?i=spring,nodejs,express,flask,graphql)
 
+<img src="https://img.shields.io/badge/APIs-REST%20%C2%B7%20GraphQL%20%C2%B7%20Microservices-FF7139?style=flat" alt="APIs" />
+
+**AI & GenAI**
+
+<img src="https://img.shields.io/badge/GenAI-RAG%20%C2%B7%20LangChain%20%C2%B7%20LangGraph%20%C2%B7%20Pinecone%20%C2%B7%20Gemini%20API-412991?style=flat" alt="GenAI: RAG, LangChain, LangGraph, Pinecone, Gemini API" />
+
 **Databases & Data**
 
 ![Databases](https://skillicons.dev/icons?i=postgres,mongodb,dynamodb,redis,firebase)
+
+<img src="https://img.shields.io/badge/Databases-PostgreSQL%20%C2%B7%20MongoDB%20%C2%B7%20DynamoDB%20%C2%B7%20Redis-336791?style=flat" alt="Databases" />
 
 **Cloud & DevOps**
 
@@ -87,12 +97,6 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 **Tools & IDEs**
 
 ![Tools](https://skillicons.dev/icons?i=vscode,idea,androidstudio,postman)
-
-<p>
-  <img src="https://img.shields.io/badge/GenAI-RAG%20%C2%B7%20LangChain%20%C2%B7%20LangGraph%20%C2%B7%20Pinecone%20%C2%B7%20Gemini%20API-412991?style=flat-square" alt="GenAI: RAG, LangChain, LangGraph, Pinecone, Gemini API" />
-  <img src="https://img.shields.io/badge/Databases-PostgreSQL%20%C2%B7%20MongoDB%20%C2%B7%20DynamoDB%20%C2%B7%20Redis-336791?style=flat-square" alt="Databases" />
-  <img src="https://img.shields.io/badge/APIs-REST%20%C2%B7%20GraphQL%20%C2%B7%20Microservices-FF7139?style=flat-square" alt="APIs" />
-</p>
 
 ---
 
