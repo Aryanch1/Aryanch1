@@ -1,41 +1,104 @@
-<div align="center">
-<h1>
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-  Hi, I'm Aryanmouli Cherupalli
-</h1>
-
-### Software Engineer | Full-Stack Developer | AI/ML Enthusiast
-
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=800%2B+DSA+Problems+Solved!)
-
-</div>
-
-- 🔭 I'm currently working on **Scalable Web & Mobile applications and backend services**
-
-- 🌱 I'm currently learning **Agentic AI, LangGraph, Kubernetes, and AWS cloud services**
-
-- 👯 I'm looking to collaborate on **Full-stack projects, AI-powered applications, and open source tools**
-
-- 🤝 I'm looking for help with **Advanced cloud architecture and distributed systems**
-
-- 💬 Ask me about **Java, Spring Boot, React, REST APIs, RAG, AI/ML, and Cybersecurity**
-
-- 📫 How to reach me **aryanmouli.ch@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://github.com/Aryanch1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Aryanch1" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/aryanmouli-cherupalli" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aryanmouli-cherupalli" height="30" width="40" /></a>
-<a href="https://leetcode.com/Aryanmouli" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="Aryanmouli" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/aryanmov1z0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="aryanmov1z0" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aryanmouli%20Cherupalli&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Developer%20%26%20AI%20Engineer&descAlignY=56&descSize=17" width="100%" alt="Aryanmouli Cherupalli — Full-Stack Developer & AI Engineer" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/android" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=androidstudio" alt="android" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/angularjs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=angular" alt="angularjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/arduino" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=arduino" alt="arduino" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/aws" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=aws" alt="aws" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/azure" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=azure" alt="azure" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/bootstrap" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/c" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=c" alt="c" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/dart" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=dart" alt="dart" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/django" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=django" alt="django" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/express" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=express" alt="express" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/figma" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=figma" alt="figma" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/firebase" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=firebase" alt="firebase" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flask" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flask" alt="flask" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flutter" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flutter" alt="flutter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/gcp" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=gcp" alt="gcp" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/graphql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=graphql" alt="graphql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/huggingface" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/huggingface" alt="huggingface" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kafka" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kafka" alt="kafka" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kotlin" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kotlin" alt="kotlin" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kubernetes" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kubernetes" alt="kubernetes" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/langchain" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="langchain" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/numpy" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/objectivec" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=apple" alt="objectivec" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pandas" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/photoshop" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=photoshop" alt="photoshop" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/php" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=php" alt="php" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postgresql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pytorch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/scikit_learn" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=scikitlearn" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/spring" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=spring" alt="spring" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/swift" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=swift" alt="swift" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/tensorflow" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=tensorflow" alt="tensorflow" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a></p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1100&color=36BCF7&center=true&vCenter=true&width=640&lines=Full-Stack+Developer+%26+AI+Engineer;Java+%C2%B7+Spring+Boot+%C2%B7+React+%C2%B7+TypeScript;GenAI+%C2%B7+RAG+%C2%B7+LangChain+%C2%B7+LangGraph;1%2C000%2B+DSA+problems+solved;Building+MindMate+AI+%E2%80%94+live+on+web+%26+mobile" alt="Typing animation" />
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Aryanch1&show_icons=true&locale=en&layout=compact" alt="Aryanch1" /></p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/aryanmouli-cherupalli/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://aryanmoulich.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:aryanmouli.ch@gmail.com"><img src="https://img.shields.io/badge/Email-aryanmouli.ch@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Aryanch1&color=0e75b6&style=for-the-badge&label=Profile+views" alt="Profile views" />
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Aryanch1&show_icons=true&locale=en" alt="Aryanch1" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Aryanch1&" alt="Aryanch1" /></p>
+## 👨‍💻 About me
+
+I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience building production web, mobile, and AI applications — currently at **CitraTek Inc.**, where I own backend microservices, GraphQL APIs, and an AI-powered semantic search feature built with RAG.
+
+- 🔭 &nbsp;Currently building **MindMate AI** — an open-source AI assistant app, live on web, Android & iOS
+- 🧠 &nbsp;Specialised in **Java · Spring Boot · React · TypeScript · Python · AWS · GenAI/RAG**
+- 🏆 &nbsp;**1,000+ DSA problems solved** across LeetCode (545) and GeeksforGeeks (469) — Institute Rank 1 on GFG
+- ☁️ &nbsp;**AWS Certified** ×3 — AI Practitioner · Developer Associate · Cloud Practitioner
+- 🎓 &nbsp;Master's in Information Systems Technologies — Wilmington University
+- 🤝 &nbsp;Open to collaborating on full-stack and AI-powered products
+
+---
+
+## 🚀 Featured projects
+
+| Project | What it is | Links |
+| --- | --- | --- |
+| **MindMate AI** | AI assistant app (React Native · Expo · TypeScript): chat, summarize, rewrite, explain code — bring-your-own-key on mobile, live AI built into the web version | [▶ Live app](https://mindmate-si.vercel.app) · [Code](https://github.com/Aryanch1/Mindmate-SI) |
+| **BridgeAI** | AI learning platform: LangGraph orchestration chaining 4 agent steps with RAG over 500+ documents in Pinecone | [Code](https://github.com/Aryanch1/EduFriend) |
+| **Proton** | Flutter + Firebase authentication app with login, signup, and password recovery flows | [Code](https://github.com/Aryanch1/Proton) |
+| **Smart Hotel Reservation Agent** | Python AI agent that searches, compares, and books across 4 sources | [Code](https://github.com/Aryanch1/smart_hotel_agent) |
+| **Portfolio** | My developer portfolio — projects, experience, and certifications | [▶ Live site](https://aryanmoulich.vercel.app) · [Code](https://github.com/Aryanch1/Aryanmouli-Cherupalli-Portfolio) |
+
+---
+
+## 🛠️ Tech stack
+
+**Languages**
+
+![Languages](https://skillicons.dev/icons?i=java,python,ts,js,dart,kotlin)
+
+**Frontend & Mobile**
+
+![Frontend and mobile](https://skillicons.dev/icons?i=react,html,css,flutter)
+
+**Backend, Data & AI**
+
+![Backend, data and AI](https://skillicons.dev/icons?i=spring,nodejs,graphql,postgres,mongodb,redis,firebase)
+
+**Cloud & DevOps**
+
+![Cloud and DevOps](https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github,githubactions)
+
+<p>
+  <img src="https://img.shields.io/badge/GenAI-RAG%20%7C%20LangChain%20%7C%20LangGraph%20%7C%20Pinecone-412991?style=flat-square" alt="GenAI: RAG, LangChain, LangGraph, Pinecone" />
+  <img src="https://img.shields.io/badge/Databases-PostgreSQL%20%7C%20MongoDB%20%7C%20DynamoDB%20%7C%20Redis-336791?style=flat-square" alt="Databases" />
+  <img src="https://img.shields.io/badge/APIs-REST%20%7C%20GraphQL%20%7C%20Microservices-FF7139?style=flat-square" alt="APIs" />
+</p>
+
+---
+
+## 📊 GitHub stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aryanch1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryanch1&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aryanch1&theme=tokyonight&hide_border=true" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aryanch1&theme=tokyo-night&hide_border=true" width="95%" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Aryanch1/Aryanch1/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
+</p>
+
+---
+
+## 🏅 Coding profiles
+
+<p>
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://img.shields.io/badge/LeetCode-Aryanmouli%20%C2%B7%20545%20solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="https://img.shields.io/badge/GeeksforGeeks-aryanmov1z0%20%C2%B7%20469%20solved-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
+</p>
+
+- **LeetCode:** 545 solved (151 Easy · 277 Medium · 117 Hard) · 365-day badge
+- **GeeksforGeeks:** 469 solved · Coding Score 1995 · Institute Rank 1 · 485 POTDs
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="" />
+</p>
