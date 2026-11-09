@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 56" width="880" height="56">
+  <defs>
+    <linearGradient id="hh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#151d33"/><stop offset="100%" stop-color="#0c1220"/>
+    </linearGradient>
+    <linearGradient id="hhg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="hhc"><rect width="880" height="56" rx="14"/></clipPath>
+  </defs>
+  <rect width="880" height="56" rx="14" fill="url(#hh)"/>
+  <g clip-path="url(#hhc)"><rect width="880" height="26" fill="url(#hhg)"/></g>
+  <rect x="1" y="1" width="878" height="54" rx="13" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.2"/>
+  <rect x="20" y="15" width="5" height="26" rx="2.5" fill="#f5b041"/>
+  <text x="40" y="37" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2.5" fill="#eef2fb">HIGHLIGHTS</text>
+</svg>
