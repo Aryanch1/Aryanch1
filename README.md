@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/aryanmouli-cherupalli/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://aryanmoulich.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:aryanmouli.ch@gmail.com"><img src="https://img.shields.io/badge/Email-aryanmouli.ch@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Aryanch1&color=0e75b6&style=for-the-badge&label=Profile+views" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/aryanmouli-cherupalli/"><img src="assets/badge-linkedin.svg" alt="LinkedIn" height="40" /></a>
+  <a href="https://aryanmoulich.vercel.app/"><img src="assets/badge-portfolio.svg" alt="Portfolio" height="40" /></a>
+  <a href="mailto:aryanmouli.ch@gmail.com"><img src="assets/badge-email.svg" alt="Email" height="40" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Aryanch1&color=0e75b6&style=flat&label=Profile+views" alt="Profile views" />
 </p>
 
 ---
@@ -89,9 +89,9 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 ![Tools](https://skillicons.dev/icons?i=vscode,idea,androidstudio,postman)
 
 <p>
-  <img src="https://img.shields.io/badge/GenAI-RAG%20%7C%20LangChain%20%7C%20LangGraph%20%7C%20Pinecone-412991?style=flat-square" alt="GenAI: RAG, LangChain, LangGraph, Pinecone" />
-  <img src="https://img.shields.io/badge/Databases-PostgreSQL%20%7C%20MongoDB%20%7C%20DynamoDB%20%7C%20Redis-336791?style=flat-square" alt="Databases" />
-  <img src="https://img.shields.io/badge/APIs-REST%20%7C%20GraphQL%20%7C%20Microservices-FF7139?style=flat-square" alt="APIs" />
+  <img src="https://img.shields.io/badge/GenAI-RAG%20%C2%B7%20LangChain%20%C2%B7%20LangGraph%20%C2%B7%20Pinecone%20%C2%B7%20Gemini%20API-412991?style=flat-square" alt="GenAI: RAG, LangChain, LangGraph, Pinecone, Gemini API" />
+  <img src="https://img.shields.io/badge/Databases-PostgreSQL%20%C2%B7%20MongoDB%20%C2%B7%20DynamoDB%20%C2%B7%20Redis-336791?style=flat-square" alt="Databases" />
+  <img src="https://img.shields.io/badge/APIs-REST%20%C2%B7%20GraphQL%20%C2%B7%20Microservices-FF7139?style=flat-square" alt="APIs" />
 </p>
 
 ---
