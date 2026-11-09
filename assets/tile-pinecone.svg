@@ -11,6 +11,5 @@
   <rect width="96" height="96" rx="18" fill="url(#tpc)"/>
   <g clip-path="url(#tpcc)"><rect width="96" height="44" fill="url(#tpcg)"/></g>
   <rect x="1" y="1" width="94" height="94" rx="17" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.3"/>
-  <text x="48" y="52" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">Pinecone</text>
-  
+  <text x="48" y="60" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Pinecone</text>
 </svg>
