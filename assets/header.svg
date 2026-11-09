@@ -12,21 +12,25 @@
       <stop offset="50%" stop-color="#bb9af7"/>
       <stop offset="100%" stop-color="#7dcfff"/>
     </linearGradient>
+  <clipPath id="hclip"><rect width="1200" height="300" rx="20"/></clipPath>
   </defs>
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <circle cx="150" cy="70" r="3" fill="#7aa2f7" opacity="0.8"><animate attributeName="cy" values="70;55;70" dur="5s" repeatCount="indefinite"/></circle>
-  <circle cx="1050" cy="60" r="4" fill="#bb9af7" opacity="0.7"><animate attributeName="cy" values="60;80;60" dur="6s" repeatCount="indefinite"/></circle>
-  <circle cx="950" cy="120" r="2.5" fill="#7dcfff" opacity="0.8"><animate attributeName="cy" values="120;105;120" dur="4s" repeatCount="indefinite"/></circle>
-  <circle cx="250" cy="110" r="2.5" fill="#9ece6a" opacity="0.7"><animate attributeName="cy" values="110;125;110" dur="7s" repeatCount="indefinite"/></circle>
-  <text x="600" y="128" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="url(#nameGrad)">Aryanmouli Cherupalli</text>
-  <text x="600" y="176" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#e6edf3">Full-Stack Developer &amp; AI Engineer</text>
-  <text x="600" y="216" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="17" fill="#a9b1d6">Java &#183; Spring Boot &#183; React &#183; TypeScript &#183; AWS &#183; GenAI / RAG</text>
-  <g opacity="0.55">
-    <path d="M0,262 C200,232 400,292 600,262 C800,232 1000,292 1200,262 L1200,300 L0,300 Z" fill="#7aa2f7">
-      <animateTransform attributeName="transform" type="translate" values="0,0;-60,0;0,0" dur="9s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0,278 C220,252 420,300 640,278 C860,256 1020,296 1200,278 L1200,300 L0,300 Z" fill="#bb9af7" opacity="0.6">
-      <animateTransform attributeName="transform" type="translate" values="0,0;50,0;0,0" dur="11s" repeatCount="indefinite"/>
-    </path>
+  <g clip-path="url(#hclip)">
+<rect width="1200" height="300" fill="url(#bg)"/>
+    <circle cx="150" cy="70" r="3" fill="#7aa2f7" opacity="0.8"><animate attributeName="cy" values="70;55;70" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="60" r="4" fill="#bb9af7" opacity="0.7"><animate attributeName="cy" values="60;80;60" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="120" r="2.5" fill="#7dcfff" opacity="0.8"><animate attributeName="cy" values="120;105;120" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="110" r="2.5" fill="#9ece6a" opacity="0.7"><animate attributeName="cy" values="110;125;110" dur="7s" repeatCount="indefinite"/></circle>
+    <text x="600" y="128" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="url(#nameGrad)">Aryanmouli Cherupalli</text>
+    <text x="600" y="176" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="27" font-weight="600" fill="#e6edf3">Full-Stack Developer &amp; AI Engineer</text>
+    <text x="600" y="216" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="17" fill="#a9b1d6">Java &#183; Spring Boot &#183; React &#183; TypeScript &#183; AWS &#183; GenAI / RAG</text>
+    <g opacity="0.55">
+      <path d="M0,262 C200,232 400,292 600,262 C800,232 1000,292 1200,262 L1200,300 L0,300 Z" fill="#7aa2f7">
+        <animateTransform attributeName="transform" type="translate" values="0,0;-60,0;0,0" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0,278 C220,252 420,300 640,278 C860,256 1020,296 1200,278 L1200,300 L0,300 Z" fill="#bb9af7" opacity="0.6">
+        <animateTransform attributeName="transform" type="translate" values="0,0;50,0;0,0" dur="11s" repeatCount="indefinite"/>
+      </path>
+    </g>
   </g>
+  <rect x="1" y="1" width="1198" height="298" rx="19" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
 </svg>

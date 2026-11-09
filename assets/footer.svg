@@ -5,10 +5,14 @@
       <stop offset="50%" stop-color="#1a2340"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
+  <clipPath id="fclip"><rect width="1200" height="110" rx="20"/></clipPath>
   </defs>
-  <rect width="1200" height="110" fill="url(#fbg)"/>
-  <path d="M0,18 C200,44 400,0 600,18 C800,36 1000,2 1200,18 L1200,0 L0,0 Z" fill="#7aa2f7" opacity="0.5">
-    <animateTransform attributeName="transform" type="translate" values="0,0;-50,0;0,0" dur="10s" repeatCount="indefinite"/>
-  </path>
-  <text x="600" y="72" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="21" fill="#e6edf3">Thanks for visiting &#8212; let&#8217;s build something great</text>
+  <g clip-path="url(#fclip)">
+<rect width="1200" height="110" fill="url(#fbg)"/>
+    <path d="M0,18 C200,44 400,0 600,18 C800,36 1000,2 1200,18 L1200,0 L0,0 Z" fill="#7aa2f7" opacity="0.5">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-50,0;0,0" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <text x="600" y="72" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="21" fill="#e6edf3">Thanks for visiting &#8212; let&#8217;s build something great</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="108" rx="19" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
 </svg>
