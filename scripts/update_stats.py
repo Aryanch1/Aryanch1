@@ -136,14 +136,25 @@ def main():
                        lambda m: m.group(1) + str(lc_total) + m.group(2))
         changed |= sub("assets/badge-gfg.svg", r'(<tspan id="gfgBadgeCount">)[^<]*(</tspan>)',
                        lambda m: m.group(1) + str(gfg_total) + m.group(2))
-        changed |= by_id("assets/leetcode-card.svg", "lcTotal", str(lc_total))
-        changed |= by_id("assets/leetcode-card.svg", "lcEasy", str(lc_e))
-        changed |= by_id("assets/leetcode-card.svg", "lcMed", str(lc_m))
-        changed |= by_id("assets/leetcode-card.svg", "lcHard", str(lc_h))
         changed |= by_id("assets/gfg-card.svg", "gfgTotal", str(gfg_total))
         changed |= by_id("assets/gfg-card.svg", "gfgScore", str(gfg_score))
         changed |= by_id("assets/gfg-card.svg", "gfgRank", "#" + str(gfg_rank))
         print("LC %d, GFG %d, combined %d" % (lc_total, gfg_total, combined))
+    try:
+        raw = fetch("https://leetcard.jacoblin.cool/" + LC_USER + "?theme=dark&font=Nunito&ext=heatmap")
+        soft, n = re.subn(r"(#background\{[^}]*?)rx:\s*[\d.]+px", r"\g<1>rx:16px", raw)
+        if n == 1:
+            old_svg = None
+            try:
+                old_svg = open("assets/leetcode-live.svg", encoding="utf-8").read()
+            except FileNotFoundError:
+                pass
+            if old_svg != soft:
+                open("assets/leetcode-live.svg", "w", encoding="utf-8").write(soft)
+                changed = True
+            print("leetcode live card refreshed")
+    except Exception as e:
+        print("leetcode card fetch failed:", e)
     try:
         repos_n, stars, followers, top = github()
         changed |= by_id("assets/gh-stats.svg", "ghRepos", str(repos_n))
