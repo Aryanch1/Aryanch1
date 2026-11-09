@@ -16,7 +16,7 @@
 
 ## 👨‍💻 About me
 
-<img align="right" src="assets/portrait.webp" width="250" alt="Aryanmouli Cherupalli" />
+<img align="right" src="assets/duo.webp" width="380" alt="Aryanmouli Cherupalli — developer and AI" />
 
 I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience building production web, mobile, and AI applications — currently at **CitraTek Inc.**, where I own backend microservices, GraphQL APIs, and an AI-powered semantic search feature built with RAG.
 
@@ -77,17 +77,17 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ![Backend and APIs](https://skillicons.dev/icons?i=spring,nodejs,express,flask,graphql)
 
-<img src="https://img.shields.io/badge/APIs-REST%20%C2%B7%20GraphQL%20%C2%B7%20Microservices-FF7139?style=flat" alt="APIs" />
+<img src="assets/badge-apis.svg" alt="APIs" height="40" />
 
 **AI & GenAI**
 
-<img src="https://img.shields.io/badge/GenAI-RAG%20%C2%B7%20LangChain%20%C2%B7%20LangGraph%20%C2%B7%20Pinecone%20%C2%B7%20Gemini%20API-412991?style=flat" alt="GenAI: RAG, LangChain, LangGraph, Pinecone, Gemini API" />
+<img src="assets/badge-genai.svg" alt="GenAI: RAG, LangChain, LangGraph, Pinecone, Gemini API" height="40" />
 
 **Databases & Data**
 
 ![Databases](https://skillicons.dev/icons?i=postgres,mongodb,dynamodb,redis,firebase)
 
-<img src="https://img.shields.io/badge/Databases-PostgreSQL%20%C2%B7%20MongoDB%20%C2%B7%20DynamoDB%20%C2%B7%20Redis-336791?style=flat" alt="Databases" />
+<img src="assets/badge-databases.svg" alt="Databases" height="40" />
 
 **Cloud & DevOps**
 
@@ -123,12 +123,12 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 ## 🏅 Coding profiles
 
 <p>
-  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://img.shields.io/badge/LeetCode-Aryanmouli%20%C2%B7%20546%20solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="https://img.shields.io/badge/GeeksforGeeks-aryanmov1z0%20%C2%B7%20469%20solved-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="assets/badge-leetcode.svg" alt="LeetCode" height="40" /></a>
+  <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="assets/badge-gfg.svg" alt="GeeksforGeeks" height="40" /></a>
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/u/Aryanmouli/"><img src="assets/leetcode-card.svg" alt="LeetCode stats card" width="500" /></a>
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://leetcard.jacoblin.cool/Aryanmouli?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode live stats card" width="500" /></a>
 </p>
 
 <p align="center">
