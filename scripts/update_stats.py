@@ -137,6 +137,15 @@ def main():
         changed |= by_id("assets/gfg-card.svg", "gfgRank", "#" + str(gfg_rank))
         print("LC %d, GFG %d, combined %d" % (lc_total, gfg_total, combined))
     try:
+        ksvg = fetch("https://komarev.com/ghpvc/?username=" + GH_USER + "&color=0e75b6&style=flat&label=Profile+views")
+        knums = re.findall(r">(\d[\d,]*)</text>", ksvg)
+        if knums:
+            changed |= sub("assets/badge-views.svg", r'(<tspan id="viewsCount">)[^<]*(</tspan>)',
+                           lambda m: m.group(1) + knums[-1] + m.group(2))
+            print("views:", knums[-1])
+    except Exception as e:
+        print("views fetch failed:", e)
+    try:
         repos_n, stars, followers, top = github()
         changed |= by_id("assets/gh-stats.svg", "ghRepos", str(repos_n))
         changed |= by_id("assets/gh-stats.svg", "ghStars", str(stars))
