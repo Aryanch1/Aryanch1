@@ -140,21 +140,39 @@ def main():
         changed |= by_id("assets/gfg-card.svg", "gfgScore", str(gfg_score))
         changed |= by_id("assets/gfg-card.svg", "gfgRank", "#" + str(gfg_rank))
         print("LC %d, GFG %d, combined %d" % (lc_total, gfg_total, combined))
-    try:
-        raw = fetch("https://leetcard.jacoblin.cool/" + LC_USER + "?theme=dark&font=Nunito&ext=heatmap")
-        soft, n = re.subn(r"(#background\{[^}]*?)rx:\s*[\d.]+px", r"\g<1>rx:16px", raw)
-        if n == 1:
-            old_svg = None
-            try:
-                old_svg = open("assets/leetcode-live.svg", encoding="utf-8").read()
-            except FileNotFoundError:
-                pass
-            if old_svg != soft:
-                open("assets/leetcode-live.svg", "w", encoding="utf-8").write(soft)
-                changed = True
-            print("leetcode live card refreshed")
-    except Exception as e:
-        print("leetcode card fetch failed:", e)
+    if lc:
+        try:
+            lc_total2, lc_e2, lc_m2, lc_h2 = lc
+            q = {"query": 'query { matchedUser(username: "%s") { profile { ranking } submissionCalendar } }' % LC_USER}
+            req = urllib.request.Request("https://leetcode.com/graphql", data=json.dumps(q).encode(),
+                                         headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+            mu = json.loads(urllib.request.urlopen(req, timeout=30).read())["data"]["matchedUser"]
+            for el_id, val in (("lcTotal", str(lc_total2)), ("lcEasy", str(lc_e2)), ("lcMed", str(lc_m2)),
+                               ("lcHard", str(lc_h2)), ("lcRank", format(mu["profile"]["ranking"], ","))):
+                changed |= sub("assets/lc-wide.svg", r'(<tspan id="%s"[^>]*>)[^<]*(</tspan>)' % el_id,
+                               lambda m, v=val: m.group(1) + v + m.group(2))
+            cal = json.loads(mu["submissionCalendar"])
+            from datetime import datetime, timezone, timedelta
+            colors = ["#232c47", "#0e4429", "#006d32", "#26a641", "#39d353"]
+            def lvl(c):
+                return 0 if c == 0 else 1 if c <= 2 else 2 if c <= 5 else 3 if c <= 9 else 4
+            today = datetime.now(timezone.utc).date()
+            cur = today - timedelta(days=139)
+            x0, y0, cs, gap = 318, 52, 12, 3.4
+            cells, col = [], 0
+            while cur <= today:
+                dow = (cur.weekday() + 1) % 7
+                ts = str(int(datetime(cur.year, cur.month, cur.day, tzinfo=timezone.utc).timestamp()))
+                cells.append('<rect x="%.1f" y="%.1f" width="12" height="12" rx="2.5" fill="%s"/>' % (
+                    x0 + col * (cs + gap), y0 + dow * (cs + gap), colors[lvl(cal.get(ts, 0))]))
+                if dow == 6:
+                    col += 1
+                cur += timedelta(days=1)
+            changed |= sub("assets/lc-wide.svg", r'(<g id="lcHeat">).*?(</g>)',
+                           lambda m: m.group(1) + "\n    " + "\n    ".join(cells) + "\n  " + m.group(2))
+            print("lc-wide card + heatmap refreshed")
+        except Exception as e:
+            print("lc-wide update failed:", e)
     try:
         repos_n, stars, followers, top = github()
         changed |= by_id("assets/gh-stats.svg", "ghRepos", str(repos_n))
