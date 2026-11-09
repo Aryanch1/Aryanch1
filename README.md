@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Aryanmouli%20Cherupalli&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Developer%20%26%20AI%20Engineer&descAlignY=56&descSize=17" width="100%" alt="Aryanmouli Cherupalli — Full-Stack Developer & AI Engineer" />
+  <img src="assets/header.svg" width="100%" alt="Aryanmouli Cherupalli — Full-Stack Developer & AI Engineer" />
 </p>
 
 <p align="center">
@@ -44,19 +44,27 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 **Languages**
 
-![Languages](https://skillicons.dev/icons?i=java,python,ts,js,dart,kotlin)
+![Languages](https://skillicons.dev/icons?i=java,python,ts,js,dart,kotlin,cpp,cs)
 
 **Frontend & Mobile**
 
 ![Frontend and mobile](https://skillicons.dev/icons?i=react,html,css,flutter)
 
-**Backend, Data & AI**
+**Backend & APIs**
 
-![Backend, data and AI](https://skillicons.dev/icons?i=spring,nodejs,graphql,postgres,mongodb,redis,firebase)
+![Backend and APIs](https://skillicons.dev/icons?i=spring,nodejs,express,flask,graphql)
+
+**Databases & Data**
+
+![Databases](https://skillicons.dev/icons?i=postgres,mongodb,dynamodb,redis,firebase)
 
 **Cloud & DevOps**
 
-![Cloud and DevOps](https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github,githubactions)
+![Cloud and DevOps](https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github,githubactions,linux,bash)
+
+**Tools & IDEs**
+
+![Tools](https://skillicons.dev/icons?i=vscode,idea,androidstudio,postman)
 
 <p>
   <img src="https://img.shields.io/badge/GenAI-RAG%20%7C%20LangChain%20%7C%20LangGraph%20%7C%20Pinecone-412991?style=flat-square" alt="GenAI: RAG, LangChain, LangGraph, Pinecone" />
@@ -71,6 +79,10 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aryanch1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryanch1&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Aryanch1&theme=tokyonight&no-frame=false&margin-w=8" alt="GitHub trophies" />
 </p>
 
 <p align="center">
@@ -100,5 +112,5 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" alt="" />
+  <img src="assets/footer.svg" width="100%" alt="Thanks for visiting" />
 </p>
