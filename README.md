@@ -28,12 +28,30 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ---
 
-## 🚀 Featured projects
+## ✦ Highlights
 
-| Project | What it is | Links |
-| --- | --- | --- |
+<p align="center">
+  <img src="assets/highlights.svg" width="100%" alt="Highlights: 1,014 DSA problems solved, 3+ years of experience, 3 AWS certifications, Institute Rank 1 on GeeksforGeeks" />
+</p>
+
+---
+
+## 🚀 Selected work
+
+<p align="center">
+  <a href="https://mindmate-si.vercel.app"><img src="assets/card-mindmate.svg" width="49%" alt="MindMate AI — AI assistant app, live on web and mobile" /></a>
+  <a href="https://edu-friened-12.web.app/login"><img src="assets/card-bridgeai.svg" width="49%" alt="BridgeAI — AI learning platform with LangGraph and RAG" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/Aryanch1/Proton"><img src="assets/card-proton.svg" width="49%" alt="Proton — Flutter and Firebase authentication app" /></a>
+  <a href="https://github.com/Aryanch1/smart_hotel_agent"><img src="assets/card-hotel.svg" width="49%" alt="Smart Hotel Agent — Python AI booking agent" /></a>
+</p>
+
+▸ &nbsp;**More:** [Portfolio site](https://aryanmoulich.vercel.app) · [All repositories](https://github.com/Aryanch1?tab=repositories)
+
+--- | --- | --- |
 | **MindMate AI** | AI assistant app (React Native · Expo · TypeScript): chat, summarize, rewrite, explain code — bring-your-own-key on mobile, live AI built into the web version | [▶ Live app](https://mindmate-si.vercel.app) · [Code](https://github.com/Aryanch1/Mindmate-SI) |
-| **BridgeAI** | AI learning platform: LangGraph orchestration chaining 4 agent steps with RAG over 500+ documents in Pinecone | [▶ Live app](https://edu-friened-12.web.app/login) · [Code](https://github.com/Aryanch1/EduFriend) |
+| **BridgeAI** | AI learning platform: LangGraph orchestration chaining 4 agent steps with RAG over 500+ documents in Pinecone | [Code](https://github.com/Aryanch1/EduFriend) |
 | **Proton** | Flutter + Firebase authentication app with login, signup, and password recovery flows | [Code](https://github.com/Aryanch1/Proton) |
 | **Smart Hotel Reservation Agent** | Python AI agent that searches, compares, and books across 4 sources | [Code](https://github.com/Aryanch1/smart_hotel_agent) |
 | **Portfolio** | My developer portfolio — projects, experience, and certifications | [▶ Live site](https://aryanmoulich.vercel.app) · [Code](https://github.com/Aryanch1/Aryanmouli-Cherupalli-Portfolio) |
