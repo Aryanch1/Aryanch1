@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294 196" width="294" height="196">
+  <defs>
+    <linearGradient id="r4bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#131a2e"/><stop offset="100%" stop-color="#0b0f1c"/>
+    </linearGradient>
+    <radialGradient id="r4orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e0af68" stop-opacity="0.5"/><stop offset="100%" stop-color="#e0af68" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="r4sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/><stop offset="50%" stop-color="#ffffff" stop-opacity="0.30"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="r4gloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.17"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="r4clip"><rect width="294" height="196" rx="16"/></clipPath>
+  </defs>
+  <rect width="294" height="196" rx="16" fill="url(#r4bg)"/>
+  <g clip-path="url(#r4clip)">
+    <circle cx="262" cy="18" r="86" fill="url(#r4orb)">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-14,10;0,0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <rect width="294" height="92" fill="url(#r4gloss)"/>
+    <g transform="rotate(18 147 98)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="-420;420;420" keyTimes="0;0.32;1" dur="8s" begin="-2s" repeatCount="indefinite"/>
+        <rect x="96" y="-160" width="72" height="520" fill="url(#r4sheen)"/>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="292" height="194" rx="15" fill="none" stroke="rgba(255,255,255,0.34)" stroke-width="1.5"/>
+  <rect x="24" y="30" width="26" height="3.5" fill="#e0af68"/>
+  <text x="24" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="41" font-weight="700" fill="#ffffff">#1</text>
+  <text x="24" y="126" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1.7" fill="#e0af68">INSTITUTE RANK — GFG</text>
+  <text id="gfgScore" x="24" y="152" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">Coding Score 1995</text>
+</svg>

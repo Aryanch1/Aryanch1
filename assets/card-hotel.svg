@@ -1,24 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 310" width="588" height="310">
   <defs>
-    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3d2a0e"/>
-      <stop offset="100%" stop-color="#6e5410"/>
+    <linearGradient id="h4bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#54400f"/><stop offset="100%" stop-color="#8a6414"/>
+      <animate attributeName="x1" values="0%;60%;0%" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;80%;0%" dur="17s" repeatCount="indefinite"/>
     </linearGradient>
+    <radialGradient id="h4orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd479" stop-opacity="0.55"/><stop offset="100%" stop-color="#ffd479" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="h4sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/><stop offset="50%" stop-color="#ffffff" stop-opacity="0.34"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="h4gloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="h4clip"><rect width="588" height="310" rx="18"/></clipPath>
   </defs>
-  <rect x="1" y="1" width="586" height="308" rx="18" fill="url(#g4)" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
-  <circle cx="540" cy="36" r="90" fill="#e0af68" opacity="0.10"/>
-  <circle cx="30" cy="300" r="70" fill="#e0af68" opacity="0.07"/>
-  <text x="36" y="50" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.5" fill="#e0af68">AI AGENTS &#183; PYTHON</text>
-  <rect x="468" y="30" width="84" height="24" rx="12" fill="rgba(0,0,0,0.35)" stroke="#e0af68" stroke-width="1"/>
-  <text x="510.0" y="46" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1.5" fill="#e0af68">AI AGENT</text>
+  <rect width="588" height="310" rx="18" fill="url(#h4bg)"/>
+  <g clip-path="url(#h4clip)">
+    <circle cx="520" cy="30" r="130" fill="url(#h4orb)">
+      <animateTransform attributeName="transform" type="translate" values="0,0;-26,16;0,0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="300" r="110" fill="url(#h4orb)" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" values="0,0;20,-14;0,0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <rect width="588" height="150" fill="url(#h4gloss)"/>
+    <g transform="rotate(18 294 155)">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="-820;820;820" keyTimes="0;0.32;1" dur="7s" begin="-1s" repeatCount="indefinite"/>
+        <rect x="240" y="-220" width="120" height="760" fill="url(#h4sheen)"/>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="586" height="308" rx="17" fill="none" stroke="rgba(255,255,255,0.38)" stroke-width="1.6"/>
+  <line x1="26" y1="2.5" x2="562" y2="2.5" stroke="rgba(255,255,255,0.35)" stroke-width="1.4"/>
+  <text x="36" y="50" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.5" fill="#ffd479">AI AGENTS &#183; PYTHON</text>
+  <rect x="452" y="30" width="100" height="24" rx="12" fill="rgba(0,0,0,0.30)" stroke="#ffd479" stroke-width="1"/>
+  <text x="502.0" y="46" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1.5" fill="#ffd479">AI AGENT</text>
   <text x="36" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="700" fill="#ffffff">Smart Hotel Agent</text>
-    <text x="36" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">Python AI agent that searches, compares and</text>
-    <text x="36" y="177" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">books hotels across four sources through a</text>
-    <text x="36" y="204" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">conversational interface.</text>
-    <rect x="36" y="248" width="68" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-    <text x="70.0" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">Python</text>
-    <rect x="114" y="248" width="89" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-    <text x="158.5" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">AI Agents</text>
-    <rect x="213" y="248" width="89" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-    <text x="257.5" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">REST APIs</text>
+    <text x="36" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#e9effc">Python AI agent that searches, compares and</text>
+    <text x="36" y="177" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#e9effc">books hotels across four sources through a</text>
+    <text x="36" y="204" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#e9effc">conversational interface.</text>
+    <rect x="36" y="248" width="68" height="27" rx="13" fill="rgba(255,255,255,0.13)" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+    <text x="70.0" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff">Python</text>
+    <rect x="114" y="248" width="89" height="27" rx="13" fill="rgba(255,255,255,0.13)" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+    <text x="158.5" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff">AI Agents</text>
+    <rect x="213" y="248" width="89" height="27" rx="13" fill="rgba(255,255,255,0.13)" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+    <text x="257.5" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#ffffff">REST APIs</text>
 </svg>
