@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 44" width="500" height="44">
+  <defs>
+    <linearGradient id="gaib" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5b21b6"/><stop offset="100%" stop-color="#2e1065"/>
+    </linearGradient>
+    <linearGradient id="gaibg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="gaibc"><rect width="500" height="44" rx="22"/></clipPath>
+  </defs>
+  <rect width="500" height="44" rx="22" fill="url(#gaib)"/>
+  <g clip-path="url(#gaibc)"><rect width="500" height="22" fill="url(#gaibg)"/></g>
+  <rect x="1" y="1" width="498" height="42" rx="21" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"/>
+  <g transform="translate(17,11)"><path fill="#ffffff" d="M11 0 L13.4 8.6 L22 11 L13.4 13.4 L11 22 L8.6 13.4 L0 11 L8.6 8.6 Z"/></g>
+  <text x="52" y="28" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">GenAI &#183; RAG &#183; LangChain &#183; LangGraph &#183; Pinecone &#183; Gemini API</text>
+</svg>

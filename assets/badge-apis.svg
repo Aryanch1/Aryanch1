@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 44" width="350" height="44">
+  <defs>
+    <linearGradient id="apib" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c2510a"/><stop offset="100%" stop-color="#6e2b04"/>
+    </linearGradient>
+    <linearGradient id="apibg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="apibc"><rect width="350" height="44" rx="22"/></clipPath>
+  </defs>
+  <rect width="350" height="44" rx="22" fill="url(#apib)"/>
+  <g clip-path="url(#apibc)"><rect width="350" height="22" fill="url(#apibg)"/></g>
+  <rect x="1" y="1" width="348" height="42" rx="21" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"/>
+  <g transform="translate(17,11)"><path d="M7 3 L2 11 L7 19 M15 3 L20 11 L15 19" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="52" y="28" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">APIs &#183; REST &#183; GraphQL &#183; Microservices</text>
+</svg>
