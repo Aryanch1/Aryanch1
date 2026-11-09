@@ -21,7 +21,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 - 🔭 &nbsp;Currently building **MindMate AI** — an open-source AI assistant app, live on web, Android & iOS
 - 🧠 &nbsp;Specialised in **Java · Spring Boot · React · TypeScript · Python · AWS · GenAI/RAG**
-- 🏆 &nbsp;**1,000+ DSA problems solved** across LeetCode (545) and GeeksforGeeks (469) — Institute Rank 1 on GFG
+- 🏆 &nbsp;**1,000+ DSA problems solved** across LeetCode (546) and GeeksforGeeks (469) — Institute Rank 1 on GFG
 - ☁️ &nbsp;**AWS Certified** ×3 — AI Practitioner · Developer Associate · Cloud Practitioner
 - 🎓 &nbsp;Master's in Information Systems Technologies — Wilmington University
 - 🤝 &nbsp;Open to collaborating on full-stack and AI-powered products
@@ -31,7 +31,10 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 ## ✦ Highlights
 
 <p align="center">
-  <img src="assets/highlights.svg" width="100%" alt="Highlights: 1,014 DSA problems solved, 3+ years of experience, 3 AWS certifications, Institute Rank 1 on GeeksforGeeks" />
+  <img src="assets/hl-dsa.svg" width="24.5%" alt="DSA problems solved" />
+  <img src="assets/hl-exp.svg" width="24.5%" alt="3+ years of experience" />
+  <img src="assets/hl-aws.svg" width="24.5%" alt="3 AWS certifications" />
+  <img src="assets/hl-rank.svg" width="24.5%" alt="Institute Rank 1 on GeeksforGeeks" />
 </p>
 
 ---
@@ -47,11 +50,12 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
   <a href="https://github.com/Aryanch1/smart_hotel_agent"><img src="assets/card-hotel.svg" width="49%" alt="Smart Hotel Agent — Python AI booking agent" /></a>
 </p>
 
-▸ &nbsp;**More:** [Portfolio site](https://aryanmoulich.vercel.app) · [All repositories](https://github.com/Aryanch1?tab=repositories)
+**Project links**
 
---- | --- | --- |
+| Project | What it is | Links |
+| --- | --- | --- |
 | **MindMate AI** | AI assistant app (React Native · Expo · TypeScript): chat, summarize, rewrite, explain code — bring-your-own-key on mobile, live AI built into the web version | [▶ Live app](https://mindmate-si.vercel.app) · [Code](https://github.com/Aryanch1/Mindmate-SI) |
-| **BridgeAI** | AI learning platform: LangGraph orchestration chaining 4 agent steps with RAG over 500+ documents in Pinecone | [Code](https://github.com/Aryanch1/EduFriend) |
+| **BridgeAI** | AI learning platform: LangGraph orchestration chaining 4 agent steps with RAG over 500+ documents in Pinecone | [▶ Live app](https://edu-friened-12.web.app/login) · [Code](https://github.com/Aryanch1/EduFriend) |
 | **Proton** | Flutter + Firebase authentication app with login, signup, and password recovery flows | [Code](https://github.com/Aryanch1/Proton) |
 | **Smart Hotel Reservation Agent** | Python AI agent that searches, compares, and books across 4 sources | [Code](https://github.com/Aryanch1/smart_hotel_agent) |
 | **Portfolio** | My developer portfolio — projects, experience, and certifications | [▶ Live site](https://aryanmoulich.vercel.app) · [Code](https://github.com/Aryanch1/Aryanmouli-Cherupalli-Portfolio) |
@@ -120,11 +124,15 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 ## 🏅 Coding profiles
 
 <p>
-  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://img.shields.io/badge/LeetCode-Aryanmouli%20%C2%B7%20545%20solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://img.shields.io/badge/LeetCode-Aryanmouli%20%C2%B7%20546%20solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="https://img.shields.io/badge/GeeksforGeeks-aryanmov1z0%20%C2%B7%20469%20solved-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
 </p>
 
-- **LeetCode:** 545 solved (151 Easy · 277 Medium · 117 Hard) · 365-day badge
+<p align="center">
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://leetcard.jacoblin.cool/Aryanmouli?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode live stats card" width="500" /></a>
+</p>
+
+- **LeetCode:** 546 solved (151 Easy · 277 Medium · 118 Hard) · 365-day badge
 - **GeeksforGeeks:** 469 solved · Coding Score 1995 · Institute Rank 1 · 485 POTDs
 
 ---
