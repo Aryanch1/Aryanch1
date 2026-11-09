@@ -128,7 +128,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/u/Aryanmouli/"><img src="https://leetcard.jacoblin.cool/Aryanmouli?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode live stats card" width="500" /></a>
+  <a href="https://leetcode.com/u/Aryanmouli/"><img src="assets/leetcode-live.svg" alt="LeetCode live stats card" width="500" /></a>
 </p>
 
 <p align="center">
