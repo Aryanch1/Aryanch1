@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 44" width="208" height="44">
+  <defs>
+    <linearGradient id="pb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#23232e"/><stop offset="100%" stop-color="#0d0d12"/>
+    </linearGradient>
+    <linearGradient id="pbg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pbc"><rect width="208" height="44" rx="22"/></clipPath>
+  </defs>
+  <rect width="208" height="44" rx="22" fill="url(#pb)"/>
+  <g clip-path="url(#pbc)"><rect width="208" height="22" fill="url(#pbg)"/></g>
+  <rect x="1" y="1" width="206" height="42" rx="21" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"/>
+  <path transform="translate(18,11.5) scale(0.9)" fill="#ffffff" d="m12 1.608 12 20.784H0Z"/>
+  <text x="52" y="28" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#ffffff">Portfolio &#183; Visit</text>
+</svg>
