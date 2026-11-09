@@ -99,21 +99,17 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 ## 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aryanch1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aryanch1&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img src="assets/gh-stats.svg" width="49%" alt="GitHub stats — updated daily" />
+  <img src="assets/gh-langs.svg" width="49%" alt="Top languages — updated daily" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aryanch1&theme=tokyonight&no-frame=false&margin-w=8" alt="GitHub trophies" />
-</p>
+<p align="center">🏅 <strong>GitHub achievements:</strong> Pull Shark · Pair Extraordinaire · YOLO · Quickdraw</p>
+
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aryanch1&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aryanch1&theme=tokyo-night&hide_border=true" width="95%" alt="Contribution activity graph" />
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Aryanch1/Aryanch1/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation" />
