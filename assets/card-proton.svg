@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 310" width="588" height="310">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#33235e"/>
+      <stop offset="100%" stop-color="#5e2358"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="586" height="308" rx="18" fill="url(#g3)" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <circle cx="540" cy="36" r="90" fill="#bb9af7" opacity="0.10"/>
+  <circle cx="30" cy="300" r="70" fill="#bb9af7" opacity="0.07"/>
+  <text x="36" y="50" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.5" fill="#bb9af7">MOBILE &#183; AUTHENTICATION</text>
+  <rect x="445" y="30" width="107" height="24" rx="12" fill="rgba(0,0,0,0.35)" stroke="#bb9af7" stroke-width="1"/>
+  <text x="498.5" y="46" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1.5" fill="#bb9af7">FLUTTER APP</text>
+  <text x="36" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="700" fill="#ffffff">Proton</text>
+    <text x="36" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">Flutter + Firebase authentication app with</text>
+    <text x="36" y="177" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">login, signup and password-recovery flows</text>
+    <text x="36" y="204" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">for Android, iOS and the web.</text>
+    <rect x="36" y="248" width="75" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <text x="73.5" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">Flutter</text>
+    <rect x="121" y="248" width="82" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <text x="162.0" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">Firebase</text>
+    <rect x="213" y="248" width="54" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <text x="240.0" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">Dart</text>
+</svg>

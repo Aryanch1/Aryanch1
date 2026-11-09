@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 188" width="1200" height="188">
+  <rect x="1" y="1" width="1198" height="186" rx="16" fill="#0d1117" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="48" y="40" width="26" height="3.5" fill="#7aa2f7"/>
+  <text x="48" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700" fill="#ffffff">1,014</text>
+  <text x="48" y="130" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.8" fill="#7aa2f7">DSA PROBLEMS SOLVED</text>
+  <text x="48" y="154" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">LeetCode 545 &#183; GeeksforGeeks 469</text>
+  <line x1="302" y1="34" x2="302" y2="154" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+  <rect x="344" y="40" width="26" height="3.5" fill="#bb9af7"/>
+  <text x="344" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700" fill="#ffffff">3+</text>
+  <text x="344" y="130" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.8" fill="#bb9af7">YEARS OF EXPERIENCE</text>
+  <text x="344" y="154" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">CitraTek &#183; Corematiq &#183; Palo Alto</text>
+  <line x1="598" y1="34" x2="598" y2="154" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+  <rect x="640" y="40" width="26" height="3.5" fill="#73daca"/>
+  <text x="640" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700" fill="#ffffff">&#215;3</text>
+  <text x="640" y="130" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.8" fill="#73daca">AWS CERTIFICATIONS</text>
+  <text x="640" y="154" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">AI Practitioner &#183; Developer &#183; Cloud</text>
+  <line x1="894" y1="34" x2="894" y2="154" stroke="rgba(255,255,255,0.09)" stroke-width="1"/>
+  <rect x="936" y="40" width="26" height="3.5" fill="#e0af68"/>
+  <text x="936" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="43" font-weight="700" fill="#ffffff">#1</text>
+  <text x="936" y="130" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.8" fill="#e0af68">INSTITUTE RANK — GFG</text>
+  <text x="936" y="154" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#9aa7bd">Coding Score 1995 &#183; 485 POTDs</text>
+  </svg>

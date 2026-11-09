@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 310" width="588" height="310">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b3833"/>
+      <stop offset="100%" stop-color="#175733"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="586" height="308" rx="18" fill="url(#g2)" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <circle cx="540" cy="36" r="90" fill="#73daca" opacity="0.10"/>
+  <circle cx="30" cy="300" r="70" fill="#73daca" opacity="0.07"/>
+  <text x="36" y="50" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11.5" letter-spacing="2.5" fill="#73daca">AI &#183; EDTECH</text>
+  <rect x="399" y="30" width="153" height="24" rx="12" fill="rgba(0,0,0,0.35)" stroke="#73daca" stroke-width="1"/>
+  <text x="475.5" y="46" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1.5" fill="#73daca">&#9679; LIVE DEMO</text>
+  <text x="36" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="700" fill="#ffffff">BridgeAI</text>
+    <text x="36" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">AI learning platform chaining four LangGraph</text>
+    <text x="36" y="177" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">agent steps, with RAG over 500+ documents</text>
+    <text x="36" y="204" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="15.5" fill="#ccd6e6">stored and searched in Pinecone.</text>
+    <rect x="36" y="248" width="89" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <text x="80.5" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">LangGraph</text>
+    <rect x="135" y="248" width="47" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <text x="158.5" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">RAG</text>
+    <rect x="192" y="248" width="82" height="27" rx="13" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+    <text x="233.0" y="266" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">Pinecone</text>
+</svg>
