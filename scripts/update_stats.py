@@ -2,8 +2,8 @@
 """Daily DSA stats updater for this GitHub profile README.
 Fetches live solved counts from LeetCode (public GraphQL) and GeeksforGeeks
 (public profile page), then rewrites the numbers in README.md and in
-assets/hl-dsa.svg / assets/hl-rank.svg. Exits quietly if a source fails:
-no change is better than a wrong number."""
+assets/hl-dsa.svg, assets/hl-rank.svg and assets/gfg-card.svg.
+Exits quietly if a source fails: no change is better than a wrong number."""
 import json, re, sys, urllib.request
 
 LC_USER = "Aryanmouli"
@@ -26,42 +26,48 @@ def geeksforgeeks():
     html = fetch("https://www.geeksforgeeks.org/profile/" + GFG_USER)
     solved = int(re.search(r"problems_solved\D{0,4}(\d+)", html).group(1))
     score = int(re.search(r"score\D{0,4}(\d+)", html).group(1))
-    return solved, score
+    rank = int(re.search(r"rank\D{0,4}(\d+)", html).group(1))
+    return solved, score, rank
 
-def sub(path, pattern, repl, count=0):
+def sub(path, pattern, repl):
     s = open(path, encoding="utf-8").read()
-    s2 = re.sub(pattern, repl, s, count=count)
+    s2 = re.sub(pattern, repl, s)
     if s2 != s:
         open(path, "w", encoding="utf-8").write(s2)
         return True
     return False
 
+def by_id(path, el_id, value):
+    return sub(path, r'(<text id="%s"[^>]*>)[^<]*(</text>)' % el_id,
+               lambda m: m.group(1) + value + m.group(2))
+
 def main():
     try:
         lc_total, lc_e, lc_m, lc_h = leetcode()
-        gfg_total, gfg_score = geeksforgeeks()
+        gfg_total, gfg_score, gfg_rank = geeksforgeeks()
     except Exception as e:
         print("stats fetch failed, leaving files unchanged:", e)
         return 0
     combined = lc_total + gfg_total
     changed = False
     changed |= sub("README.md", r"LeetCode-Aryanmouli%20%C2%B7%20\d+%20solved",
-                   f"LeetCode-Aryanmouli%20%C2%B7%20{lc_total}%20solved")
+                   "LeetCode-Aryanmouli%20%C2%B7%20" + str(lc_total) + "%20solved")
     changed |= sub("README.md", r"GeeksforGeeks-aryanmov1z0%20%C2%B7%20\d+%20solved",
-                   f"GeeksforGeeks-aryanmov1z0%20%C2%B7%20{gfg_total}%20solved")
+                   "GeeksforGeeks-aryanmov1z0%20%C2%B7%20" + str(gfg_total) + "%20solved")
     changed |= sub("README.md", r"LeetCode \(\d+\) and GeeksforGeeks \(\d+\)",
-                   f"LeetCode ({lc_total}) and GeeksforGeeks ({gfg_total})")
-    changed |= sub("README.md", r"\*\*LeetCode:\*\* \d+ solved \(\d+ Easy · \d+ Medium · \d+ Hard\)",
-                   f"**LeetCode:** {lc_total} solved ({lc_e} Easy · {lc_m} Medium · {lc_h} Hard)")
-    changed |= sub("README.md", r"\*\*GeeksforGeeks:\*\* \d+ solved · Coding Score \d+",
-                   f"**GeeksforGeeks:** {gfg_total} solved · Coding Score {gfg_score}")
-    changed |= sub("assets/hl-dsa.svg", r'(<text id="dsaTotal"[^>]*>)[^<]*(</text>)',
-                   rf"\g<1>{combined:,}\g<2>")
-    changed |= sub("assets/hl-dsa.svg", r'(<text id="dsaSplit"[^>]*>)[^<]*(</text>)',
-                   rf"\g<1>LeetCode {lc_total} &#183; GFG {gfg_total}\g<2>")
-    changed |= sub("assets/hl-rank.svg", r'(<text id="gfgScore"[^>]*>)[^<]*(</text>)',
-                   rf"\g<1>Coding Score {gfg_score}\g<2>")
-    print(f"LeetCode {lc_total} (E{lc_e}/M{lc_m}/H{lc_h}), GFG {gfg_total} (score {gfg_score}), combined {combined}, changed={changed}")
+                   "LeetCode (%d) and GeeksforGeeks (%d)" % (lc_total, gfg_total))
+    changed |= sub("README.md", r"\*\*LeetCode:\*\* \d+ solved \(\d+ Easy . \d+ Medium . \d+ Hard\)",
+                   "**LeetCode:** %d solved (%d Easy \u00b7 %d Medium \u00b7 %d Hard)" % (lc_total, lc_e, lc_m, lc_h))
+    changed |= sub("README.md", r"\*\*GeeksforGeeks:\*\* \d+ solved . Coding Score \d+",
+                   "**GeeksforGeeks:** %d solved \u00b7 Coding Score %d" % (gfg_total, gfg_score))
+    changed |= by_id("assets/hl-dsa.svg", "dsaTotal", format(combined, ","))
+    changed |= by_id("assets/hl-dsa.svg", "dsaSplit", "LeetCode %d &#183; GFG %d" % (lc_total, gfg_total))
+    changed |= by_id("assets/hl-rank.svg", "gfgScore", "Coding Score %d" % gfg_score)
+    changed |= by_id("assets/gfg-card.svg", "gfgTotal", str(gfg_total))
+    changed |= by_id("assets/gfg-card.svg", "gfgScore", str(gfg_score))
+    changed |= by_id("assets/gfg-card.svg", "gfgRank", "#" + str(gfg_rank))
+    print("LeetCode %d (E%d/M%d/H%d), GFG %d (score %d, rank %d), combined %d, changed=%s"
+          % (lc_total, lc_e, lc_m, lc_h, gfg_total, gfg_score, gfg_rank, combined, changed))
     return 0
 
 if __name__ == "__main__":
