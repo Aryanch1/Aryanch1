@@ -77,11 +77,11 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 ![Backend and APIs](https://skillicons.dev/icons?i=spring,nodejs,express,flask,graphql)
 
-<img src="assets/tile-rest.svg" width="92" alt="REST" /> <img src="assets/tile-graphql.svg" width="92" alt="GraphQL" /> <img src="assets/tile-microservices.svg" width="92" alt="Microservices" />
+<img src="assets/tile-rest.svg" width="48" alt="REST" /> <img src="assets/tile-graphql.svg" width="48" alt="GraphQL" /> <img src="assets/tile-microservices.svg" width="48" alt="Microservices" />
 
 **AI & GenAI**
 
-<img src="assets/tile-rag.svg" width="92" alt="RAG" /> <img src="assets/tile-langchain.svg" width="92" alt="LangChain" /> <img src="assets/tile-langgraph.svg" width="92" alt="LangGraph" /> <img src="assets/tile-pinecone.svg" width="92" alt="Pinecone" /> <img src="assets/tile-gemini.svg" width="92" alt="Gemini" />
+<img src="assets/tile-rag.svg" width="48" alt="RAG" /> <img src="assets/tile-langchain.svg" width="48" alt="LangChain" /> <img src="assets/tile-langgraph.svg" width="48" alt="LangGraph" /> <img src="assets/tile-pinecone.svg" width="48" alt="Pinecone" /> <img src="assets/tile-gemini.svg" width="48" alt="Gemini" />
 
 **Databases & Data**
 
