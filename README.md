@@ -16,7 +16,7 @@
 
 ## 👨‍💻 About me
 
-<img align="right" src="assets/duo.webp" width="380" alt="Aryanmouli Cherupalli — developer and AI" />
+<img align="right" src="assets/robot.webp" width="250" alt="Aryanmouli Cherupalli — AI" />
 
 I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience building production web, mobile, and AI applications — currently at **CitraTek Inc.**, where I own backend microservices, GraphQL APIs, and an AI-powered semantic search feature built with RAG.
 
