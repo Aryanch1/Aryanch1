@@ -104,6 +104,50 @@ def write_langs_card(top):
         return True
     return False
 
+
+# Per-day problems SOLVED on GeeksforGeeks, read from the Coding Score tab's
+# Month-view charts in the signed-in profile on 2026-11-09 (each month sums
+# exactly to the total the page states). Per-day GFG data needs a signed-in
+# session, so the series is embedded here and the card's heatmap is
+# re-rendered from it; the card's stats above still update live.
+GFG_SOLVED = {}
+
+
+def _gfg_fill(year, month, default, overrides=None):
+    import calendar
+    from datetime import date
+
+    for day in range(1, calendar.monthrange(year, month)[1] + 1):
+        GFG_SOLVED[date(year, month, day)] = (overrides or {}).get(day, default)
+
+
+_gfg_fill(2026, 6, 1, {3: 2})
+_gfg_fill(2026, 7, 1, {2: 0, 11: 0, 12: 0, 13: 0, 20: 0, 22: 0})
+_gfg_fill(2026, 8, 1)
+_gfg_fill(2026, 9, 1, {10: 0, 16: 0})
+_gfg_fill(2026, 10, 0, {d: 1 for d in [5, 6, 7, 8, 9, 11, 12, 13, 14, 21, 26, 27, 28]})
+for _d in range(1, 10):
+    from datetime import date as _date
+
+    GFG_SOLVED[_date(2026, 11, _d)] = {4: 1, 5: 1, 9: 5}.get(_d, 0)
+
+
+def gfg_heat_cells():
+    from datetime import date, timedelta
+
+    def color(n):
+        return "#1c2b21" if n == 0 else "#26a641" if n == 1 else "#39d353"
+
+    cells, d = [], date(2026, 6, 21)
+    end = date(2026, 11, 9)
+    while d <= end:
+        col = (d - date(2026, 6, 21)).days // 7
+        row = (d.weekday() + 1) % 7
+        cells.append('<rect x="%.1f" y="%.1f" width="12" height="12" rx="2.5" fill="%s"/>' % (
+            318 + col * 15.4, 52 + row * 15.4, color(GFG_SOLVED.get(d, 0))))
+        d += timedelta(days=1)
+    return "\n    " + "\n    ".join(cells) + "\n  "
+
 def main():
     changed = False
     lc = gfg = None
@@ -136,9 +180,12 @@ def main():
                        lambda m: m.group(1) + str(lc_total) + m.group(2))
         changed |= sub("assets/badge-gfg.svg", r'(<tspan id="gfgBadgeCount">)[^<]*(</tspan>)',
                        lambda m: m.group(1) + str(gfg_total) + m.group(2))
-        changed |= by_id("assets/gfg-card.svg", "gfgTotal", str(gfg_total))
-        changed |= by_id("assets/gfg-card.svg", "gfgScore", str(gfg_score))
-        changed |= by_id("assets/gfg-card.svg", "gfgRank", "#" + str(gfg_rank))
+        for el_id, val in (("gfgTotal", str(gfg_total)), ("gfgScore", str(gfg_score)),
+                           ("gfgRank", "#" + str(gfg_rank))):
+            changed |= sub("assets/gfg-card.svg", r'(<tspan id="%s"[^>]*>)[^<]*(</tspan>)' % el_id,
+                           lambda m, v=val: m.group(1) + v + m.group(2))
+        changed |= sub("assets/gfg-card.svg", r'(?s)(<g id="gfgHeat">).*?(</g>)',
+                       lambda m: m.group(1) + gfg_heat_cells() + m.group(2))
         print("LC %d, GFG %d, combined %d" % (lc_total, gfg_total, combined))
     if lc:
         try:
@@ -168,7 +215,7 @@ def main():
                 if dow == 6:
                     col += 1
                 cur += timedelta(days=1)
-            changed |= sub("assets/lc-wide.svg", r'(<g id="lcHeat">).*?(</g>)',
+            changed |= sub("assets/lc-wide.svg", r'(?s)(<g id="lcHeat">).*?(</g>)',
                            lambda m: m.group(1) + "\n    " + "\n    ".join(cells) + "\n  " + m.group(2))
             print("lc-wide card + heatmap refreshed")
         except Exception as e:
