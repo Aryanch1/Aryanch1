@@ -17,6 +17,6 @@
   <text x="28" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">PUBLIC REPOS</text>
   <text id="ghStars" x="196" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">1</text>
   <text x="196" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">TOTAL STARS</text>
-  <text id="ghFollowers" x="364" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">3</text>
+  <text id="ghFollowers" x="364" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">4</text>
   <text x="364" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">FOLLOWERS</text>
 </svg>
