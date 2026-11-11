@@ -31,5 +31,5 @@
   <rect x="24" y="30" width="26" height="3.5" fill="#e0af68"/>
   <text x="24" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="41" font-weight="700" fill="#ffffff">#1</text>
   <text x="24" y="126" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1.7" fill="#e0af68">INSTITUTE RANK — GFG</text>
-  <text id="gfgScore" x="24" y="152" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">Coding Score 2015</text>
+  <text id="gfgScore" x="24" y="152" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">Coding Score 2035</text>
 </svg>
