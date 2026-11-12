@@ -130,6 +130,13 @@ for _d in range(1, 10):
     from datetime import date as _date
 
     GFG_SOLVED[_date(2026, 11, _d)] = {4: 1, 5: 1, 9: 5}.get(_d, 0)
+# Nov 10-12, 2026: added from the daily DSA log (verified counts, not the
+# signed-in Month view) — 10 GFG submissions each day, dark green verified
+# on the heatmap (Nov 10 goal update; Nov 11-12 dsa-daily-log.md lines).
+for _d in (10, 11, 12):
+    from datetime import date as _date
+
+    GFG_SOLVED[_date(2026, 11, _d)] = 10
 
 
 def gfg_heat_cells():
@@ -139,7 +146,7 @@ def gfg_heat_cells():
         return "#1c2b21" if n == 0 else "#26a641" if n == 1 else "#39d353"
 
     cells, d = [], date(2026, 6, 21)
-    end = date(2026, 11, 9)
+    end = date(2026, 11, 12)
     while d <= end:
         col = (d - date(2026, 6, 21)).days // 7
         row = (d.weekday() + 1) % 7
@@ -159,25 +166,24 @@ def main():
         gfg = geeksforgeeks()
     except Exception as e:
         print("gfg fetch failed:", e)
-    if lc and gfg:
+    # Each source updates on its own: the combined DSA total needs both,
+    # but a LeetCode 403 must not freeze the GeeksforGeeks numbers.
+    if lc:
         lc_total, lc_e, lc_m, lc_h = lc
-        gfg_total, gfg_score, gfg_rank = gfg
-        combined = lc_total + gfg_total
         changed |= sub("README.md", r"LeetCode-Aryanmouli%20%C2%B7%20\d+%20solved",
                        "LeetCode-Aryanmouli%20%C2%B7%20" + str(lc_total) + "%20solved")
-        changed |= sub("README.md", r"GeeksforGeeks-aryanmov1z0%20%C2%B7%20\d+%20solved",
-                       "GeeksforGeeks-aryanmov1z0%20%C2%B7%20" + str(gfg_total) + "%20solved")
-        changed |= sub("README.md", r"LeetCode \(\d+\) and GeeksforGeeks \(\d+\)",
-                       "LeetCode (%d) and GeeksforGeeks (%d)" % (lc_total, gfg_total))
         changed |= sub("README.md", r"\*\*LeetCode:\*\* \d+ solved \(\d+ Easy . \d+ Medium . \d+ Hard\)",
                        "**LeetCode:** %d solved (%d Easy \u00b7 %d Medium \u00b7 %d Hard)" % (lc_total, lc_e, lc_m, lc_h))
-        changed |= sub("README.md", r"\*\*GeeksforGeeks:\*\* \d+ solved . Coding Score \d+",
-                       "**GeeksforGeeks:** %d solved \u00b7 Coding Score %d" % (gfg_total, gfg_score))
-        changed |= by_id("assets/hl-dsa.svg", "dsaTotal", format(combined, ","))
-        changed |= by_id("assets/hl-dsa.svg", "dsaSplit", "LeetCode %d &#183; GFG %d" % (lc_total, gfg_total))
-        changed |= by_id("assets/hl-rank.svg", "gfgScore", "Coding Score %d" % gfg_score)
         changed |= sub("assets/badge-leetcode.svg", r'(<tspan id="lcBadgeCount">)[^<]*(</tspan>)',
                        lambda m: m.group(1) + str(lc_total) + m.group(2))
+        print("LC %d" % lc_total)
+    if gfg:
+        gfg_total, gfg_score, gfg_rank = gfg
+        changed |= sub("README.md", r"GeeksforGeeks-aryanmov1z0%20%C2%B7%20\d+%20solved",
+                       "GeeksforGeeks-aryanmov1z0%20%C2%B7%20" + str(gfg_total) + "%20solved")
+        changed |= sub("README.md", r"\*\*GeeksforGeeks:\*\* \d+ solved . Coding Score \d+",
+                       "**GeeksforGeeks:** %d solved \u00b7 Coding Score %d" % (gfg_total, gfg_score))
+        changed |= by_id("assets/hl-rank.svg", "gfgScore", "Coding Score %d" % gfg_score)
         changed |= sub("assets/badge-gfg.svg", r'(<tspan id="gfgBadgeCount">)[^<]*(</tspan>)',
                        lambda m: m.group(1) + str(gfg_total) + m.group(2))
         for el_id, val in (("gfgTotal", str(gfg_total)), ("gfgScore", str(gfg_score)),
@@ -186,7 +192,15 @@ def main():
                            lambda m, v=val: m.group(1) + v + m.group(2))
         changed |= sub("assets/gfg-card.svg", r'(?s)(<g id="gfgHeat">).*?(</g>)',
                        lambda m: m.group(1) + gfg_heat_cells() + m.group(2))
-        print("LC %d, GFG %d, combined %d" % (lc_total, gfg_total, combined))
+        print("GFG %d, score %d" % (gfg_total, gfg_score))
+    if lc and gfg:
+        lc_total, gfg_total = lc[0], gfg[0]
+        combined = lc_total + gfg_total
+        changed |= sub("README.md", r"LeetCode \(\d+\) and GeeksforGeeks \(\d+\)",
+                       "LeetCode (%d) and GeeksforGeeks (%d)" % (lc_total, gfg_total))
+        changed |= by_id("assets/hl-dsa.svg", "dsaTotal", format(combined, ","))
+        changed |= by_id("assets/hl-dsa.svg", "dsaSplit", "LeetCode %d &#183; GFG %d" % (lc_total, gfg_total))
+        print("combined %d" % combined)
     if lc:
         try:
             lc_total2, lc_e2, lc_m2, lc_h2 = lc
