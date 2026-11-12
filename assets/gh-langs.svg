@@ -16,15 +16,15 @@
   <text id="lang1Name" x="28" y="82" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">JavaScript</text>
   <rect x="140" y="72" width="300" height="9" rx="4.5" fill="rgba(255,255,255,0.10)"/>
   <rect id="lang1Bar" x="140" y="72" width="129" height="9" rx="4.5" fill="#f1e05a"/>
-  <text id="lang1Pct" x="452" y="82" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">43.3%</text>
+  <text id="lang1Pct" x="452" y="82" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">43.2%</text>
   <text id="lang2Name" x="28" y="104" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">CSS</text>
   <rect x="140" y="94" width="300" height="9" rx="4.5" fill="rgba(255,255,255,0.10)"/>
   <rect id="lang2Bar" x="140" y="94" width="53" height="9" rx="4.5" fill="#a074c4"/>
-  <text id="lang2Pct" x="452" y="104" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">17.8%</text>
+  <text id="lang2Pct" x="452" y="104" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">17.7%</text>
   <text id="lang3Name" x="28" y="126" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">Python</text>
   <rect x="140" y="116" width="300" height="9" rx="4.5" fill="rgba(255,255,255,0.10)"/>
   <rect id="lang3Bar" x="140" y="116" width="33" height="9" rx="4.5" fill="#3572A5"/>
-  <text id="lang3Pct" x="452" y="126" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">11.1%</text>
+  <text id="lang3Pct" x="452" y="126" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a7b3c9">11.2%</text>
   <text id="lang4Name" x="28" y="148" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e6edf3">HTML</text>
   <rect x="140" y="138" width="300" height="9" rx="4.5" fill="rgba(255,255,255,0.10)"/>
   <rect id="lang4Bar" x="140" y="138" width="31" height="9" rx="4.5" fill="#e34c26"/>
