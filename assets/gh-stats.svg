@@ -13,10 +13,10 @@
   <rect x="1" y="1" width="498" height="188" rx="13" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1.4"/>
   <text x="28" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#ffffff">GitHub Stats</text>
   <text x="28" y="70" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="13" fill="#8fb0ff">@Aryanch1</text>
-  <text id="ghRepos" x="28" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">14</text>
+  <text id="ghRepos" x="28" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">15</text>
   <text x="28" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">PUBLIC REPOS</text>
   <text id="ghStars" x="196" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">1</text>
   <text x="196" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">TOTAL STARS</text>
-  <text id="ghFollowers" x="364" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">4</text>
+  <text id="ghFollowers" x="364" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">5</text>
   <text x="364" y="150" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.6" fill="#7aa2f7">FOLLOWERS</text>
 </svg>

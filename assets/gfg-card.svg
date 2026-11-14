@@ -13,9 +13,9 @@
   <rect x="1" y="1" width="658" height="198" rx="15" fill="none" stroke="rgba(63,185,80,0.35)" stroke-width="1.3"/>
   <text x="28" y="46" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#3fb950">GeeksforGeeks</text>
   <text x="28" y="66" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11.5" fill="#a8b3cf">aryanmov1z0 &#183; Institute Rank <tspan id="gfgRank" fill="#e8edf9" font-weight="600">#1</tspan></text>
-  <text x="28" y="128" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff"><tspan id="gfgTotal">509</tspan></text>
+  <text x="28" y="128" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff"><tspan id="gfgTotal">519</tspan></text>
   <text x="30" y="152" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12" fill="#a8b3cf">problems solved</text>
-  <text x="28" y="182" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e8edf9">Coding Score <tspan id="gfgScore" font-weight="700" fill="#f5b041">2073</tspan></text>
+  <text x="28" y="182" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="12.5" fill="#e8edf9">Coding Score <tspan id="gfgScore" font-weight="700" fill="#f5b041">2095</tspan></text>
   <text x="318" y="38" font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" font-size="11.5" fill="#a8b3cf">Solved &#183; last 20 weeks</text>
   <g id="gfgHeat">
     <rect x="318.0" y="52.0" width="12" height="12" rx="2.5" fill="#26a641"/>
