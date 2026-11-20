@@ -22,7 +22,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 - 🔭 &nbsp;Currently building **MindMate AI** — an open-source AI assistant app, live on web, Android & iOS
 - 🧠 &nbsp;Specialised in **Java · Spring Boot · React · TypeScript · Python · AWS · GenAI/RAG**
-- 🏆 &nbsp;**1,000+ DSA problems solved** across LeetCode (556) and GeeksforGeeks (568) — Institute Rank 1 on GFG
+- 🏆 &nbsp;**1,000+ DSA problems solved** across LeetCode (557) and GeeksforGeeks (578) — Institute Rank 1 on GFG
 - ☁️ &nbsp;**AWS Certified** ×3 — AI Practitioner · Developer Associate · Cloud Practitioner
 - 🎓 &nbsp;Master's in Information Systems Technologies — Wilmington University
 - 🤝 &nbsp;Open to collaborating on full-stack and AI-powered products
@@ -136,8 +136,8 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
   <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="assets/gfg-card.svg" alt="GeeksforGeeks stats card — updated daily" width="660" /></a>
 </p>
 
-- **LeetCode:** 556 solved (154 Easy · 282 Medium · 120 Hard) · 365-day badge
-- **GeeksforGeeks:** 568 solved · Coding Score 2191 · Institute Rank 1 · 485 POTDs
+- **LeetCode:** 557 solved (154 Easy · 282 Medium · 121 Hard) · 365-day badge
+- **GeeksforGeeks:** 578 solved · Coding Score 2211 · Institute Rank 1 · 485 POTDs
 
 ---
 
