@@ -63,7 +63,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 | **CivicHelper** | Paste a confusing official letter and get it explained in plain words, with numbered action steps and deadlines | [▶ Live app](https://civichellper.vercel.app) · [Code](https://github.com/Aryanch1/CivicHelper) |
 | **BudgetBuddy** | Daily spending log with an AI coach: budget ring, quick add logging and a weekly summary with money tips | [▶ Live app](https://budgetbuddy-two-kohl.vercel.app) · [Code](https://github.com/Aryanch1/BudgetBuddy) |
 | **ElderEase** | Big text daily companion for older adults and caregivers: day timeline with reminders, plain words weather, one tap emergency contacts | [▶ Live app](https://elderease-mauve.vercel.app) · [Code](https://github.com/Aryanch1/ElderEase) |
-| **BloodBond** | Community blood donor and request board with demo data and AI written request messages | [Code](https://github.com/Aryanch1/BloodBond) |
+| **BloodBond** | Community blood donor and request board with demo data and AI written request messages | [▶ Live app](https://bloodbond-phi.vercel.app) · [Code](https://github.com/Aryanch1/BloodBond) |
 | **BridgeAI** | AI learning platform: LangGraph orchestration chaining 4 agent steps with RAG over 500+ documents in Pinecone | [▶ Live app](https://edu-friened-12.web.app/login) · [Code](https://github.com/Aryanch1/EduFriend) |
 | **Proton** | Flutter + Firebase authentication app with login, signup, and password recovery flows | [Code](https://github.com/Aryanch1/Proton) |
 | **Smart Hotel Reservation Agent** | Python AI agent that searches, compares, and books across 4 sources | [Code](https://github.com/Aryanch1/smart_hotel_agent) |
