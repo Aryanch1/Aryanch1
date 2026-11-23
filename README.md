@@ -22,7 +22,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 
 - 🔭 &nbsp;Currently building **MindMate AI** — an open-source AI assistant app, live on web, Android & iOS
 - 🧠 &nbsp;Specialised in **Java · Spring Boot · React · TypeScript · Python · AWS · GenAI/RAG**
-- 🏆 &nbsp;**1,000+ DSA problems solved** across LeetCode (559) and GeeksforGeeks (598) — Institute Rank 1 on GFG
+- 🏆 &nbsp;**1,000+ DSA problems solved** across LeetCode (558) and GeeksforGeeks (588) — Institute Rank 1 on GFG
 - ☁️ &nbsp;**AWS Certified** ×3 — AI Practitioner · Developer Associate · Cloud Practitioner
 - 🎓 &nbsp;Master's in Information Systems Technologies — Wilmington University
 - 🤝 &nbsp;Open to collaborating on full-stack and AI-powered products
@@ -65,6 +65,7 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
 | **ElderEase** | Big text daily companion for older adults and caregivers: day timeline with reminders, plain words weather, one tap emergency contacts | [▶ Live app](https://elderease-mauve.vercel.app) · [Code](https://github.com/Aryanch1/ElderEase) |
 | **BloodBond** | Community blood donor and request board with demo data and AI written request messages | [▶ Live app](https://bloodbond-phi.vercel.app) · [Code](https://github.com/Aryanch1/BloodBond) |
 | **MoodJournal** | Quiet daily mood journal with gentle AI reflections, week mood arc, streak and private per user data | [▶ Live app](https://moodjournal-sigma.vercel.app) · [Code](https://github.com/Aryanch1/MoodJournal) |
+| **SkillSwapLocal** | Neighbors offer and request small skills and help nearby, with AI matching requests to offers | [▶ Live app](https://skillswaplocal.vercel.app) · [Code](https://github.com/Aryanch1/SkillSwapLocal) |
 | **BridgeAI** | AI learning platform: LangGraph orchestration chaining 4 agent steps with RAG over 500+ documents in Pinecone | [▶ Live app](https://edu-friened-12.web.app/login) · [Code](https://github.com/Aryanch1/EduFriend) |
 | **Proton** | Flutter + Firebase authentication app with login, signup, and password recovery flows | [Code](https://github.com/Aryanch1/Proton) |
 | **Smart Hotel Reservation Agent** | Python AI agent that searches, compares, and books across 4 sources | [Code](https://github.com/Aryanch1/smart_hotel_agent) |
@@ -145,8 +146,8 @@ I'm a **Full-Stack Developer & AI Engineer** with 3+ years of experience buildin
   <a href="https://www.geeksforgeeks.org/profile/aryanmov1z0"><img src="assets/gfg-card.svg" alt="GeeksforGeeks stats card — updated daily" width="660" /></a>
 </p>
 
-- **LeetCode:** 559 solved (155 Easy · 283 Medium · 121 Hard) · 365-day badge
-- **GeeksforGeeks:** 598 solved · Coding Score 2244 · Institute Rank 1 · 485 POTDs
+- **LeetCode:** 558 solved (154 Easy · 283 Medium · 121 Hard) · 365-day badge
+- **GeeksforGeeks:** 588 solved · Coding Score 2222 · Institute Rank 1 · 485 POTDs
 
 ---
 
